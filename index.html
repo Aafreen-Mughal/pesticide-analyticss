@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pesticide Analytics Dashboard</title>
   <link rel="stylesheet" href="style.css" />
-<script>
-  // Apply saved mode on load
-  window.onload = function () {
-    if (localStorage.getItem("mode") === "light") {
-      document.body.classList.add("light-mode");
+  <script>
+    window.onload = function () {
+      const savedMode = localStorage.getItem("mode");
+      if (savedMode === "light") {
+        document.body.classList.add("light-mode");
+      }
+    };
+
+    function toggleMode() {
+      document.body.classList.toggle("light-mode");
+      const mode = document.body.classList.contains("light-mode") ? "light" : "dark";
+      localStorage.setItem("mode", mode);
     }
-  };
-
-  // Toggle mode and save it
-  function toggleMode() {
-    document.body.classList.toggle("light-mode");
-    const mode = document.body.classList.contains("light-mode") ? "light" : "dark";
-    localStorage.setItem("mode", mode);
-  }
-</script>
-
+  </script>
 </head>
 <body>
   <nav>
