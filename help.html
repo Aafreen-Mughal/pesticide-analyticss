@@ -1,15 +1,19 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pesticide Analytics | Results</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pesticide Analytics | Help</title>
+  <link rel="stylesheet" href="style.css" />
   <script>
     window.onload = function () {
       const savedMode = localStorage.getItem("mode");
       if (savedMode === "light") {
         document.body.classList.add("light-mode");
+      } else if (savedMode === "dark") {
+        document.body.classList.remove("light-mode");
+      } else {
+        localStorage.setItem("mode", "dark");
       }
     };
 
@@ -36,28 +40,21 @@
 
   <main>
     <section>
-      <h2>Analytics & Graphs</h2>
-      <p>Interactive and static visualizations representing pesticide usage over time and across regions.</p>
-
+      <h2>Help Center</h2>
       <div class="card">
-        <h3>📈 Global Usage Over Years</h3>
-        <img src="global_pesticide_trend.png" alt="Global Pesticide Usage Over Time">
-      </div>
-
-      <div class="card">
-        <h3>🔥 Country-wise Heatmap</h3>
-        <img src="pesticide_usage_heatmap.png" alt="Pesticide Usage Heatmap">
-      </div>
-
-      <div class="card">
-        <h3>🌍 Pesticide Usage Map</h3>
-        <iframe src="latest_year_map.html"></iframe>
+        <p>This website is designed to help users explore pesticide usage patterns globally.</p>
+        <ul>
+          <li><strong>Home:</strong> Overview of the project goals</li>
+          <li><strong>Dataset:</strong> Detailed structure of the dataset used</li>
+          <li><strong>Results:</strong> Graphs and interactive maps of pesticide use</li>
+        </ul>
+        <p>If you face issues, visit the GitHub repo README or contact the author via the GitHub profile.</p>
       </div>
     </section>
   </main>
 
   <footer>
-    📊 Results powered by data | © 2025 Aafreen Mughal
+    ❓ Need help? You're at the right place! | © 2025 Aafreen Mughal
   </footer>
 </body>
 </html>
