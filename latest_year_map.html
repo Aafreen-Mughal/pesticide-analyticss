@@ -1,0 +1,3850 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a868aa539bd0ed573f0af0bd29ddc61 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a868aa539bd0ed573f0af0bd29ddc61" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a868aa539bd0ed573f0af0bd29ddc61 = L.map(
+                "map_4a868aa539bd0ed573f0af0bd29ddc61",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_415e499d2bcb5adb8cb9113e53e07117 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_415e499d2bcb5adb8cb9113e53e07117.addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+            var circle_marker_af6322cf21f16664b3d15fbefd8d0b2e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_cda7a052ebfebd9942cd3168c842a9e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12ea09232eca2f9fb06359547683fe82 = $(`<div id="html_12ea09232eca2f9fb06359547683fe82" style="width: 100.0%; height: 100.0%;">Albania: 1419.44 tonnes</div>`)[0];
+                popup_cda7a052ebfebd9942cd3168c842a9e9.setContent(html_12ea09232eca2f9fb06359547683fe82);
+            
+        
+
+        circle_marker_af6322cf21f16664b3d15fbefd8d0b2e.bindPopup(popup_cda7a052ebfebd9942cd3168c842a9e9)
+        ;
+
+        
+    
+    
+            var circle_marker_5a5ca399a59170def22ce6723812116f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a2f9b343983bafab37f9c538373526de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8686e13419b2b99c1065c3e69229ef37 = $(`<div id="html_8686e13419b2b99c1065c3e69229ef37" style="width: 100.0%; height: 100.0%;">Algeria: 14258.22 tonnes</div>`)[0];
+                popup_a2f9b343983bafab37f9c538373526de.setContent(html_8686e13419b2b99c1065c3e69229ef37);
+            
+        
+
+        circle_marker_5a5ca399a59170def22ce6723812116f.bindPopup(popup_a2f9b343983bafab37f9c538373526de)
+        ;
+
+        
+    
+    
+            var circle_marker_806d71748f8bd38d894d2910dcd5511d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_ef4528fc14c5013cb02efa62744901e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_415020152d8dbcc97211bdc2f3a408b7 = $(`<div id="html_415020152d8dbcc97211bdc2f3a408b7" style="width: 100.0%; height: 100.0%;">Angola: 40.0 tonnes</div>`)[0];
+                popup_ef4528fc14c5013cb02efa62744901e8.setContent(html_415020152d8dbcc97211bdc2f3a408b7);
+            
+        
+
+        circle_marker_806d71748f8bd38d894d2910dcd5511d.bindPopup(popup_ef4528fc14c5013cb02efa62744901e8)
+        ;
+
+        
+    
+    
+            var circle_marker_774022b19c39c77417eb187ab433fea4 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_cd519dd60bcf4c4e52a6a3a5c4ef1c44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1264a65ba525171cfbb543f1d532721f = $(`<div id="html_1264a65ba525171cfbb543f1d532721f" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda: 26.64 tonnes</div>`)[0];
+                popup_cd519dd60bcf4c4e52a6a3a5c4ef1c44.setContent(html_1264a65ba525171cfbb543f1d532721f);
+            
+        
+
+        circle_marker_774022b19c39c77417eb187ab433fea4.bindPopup(popup_cd519dd60bcf4c4e52a6a3a5c4ef1c44)
+        ;
+
+        
+    
+    
+            var circle_marker_c6990b68510913ba581d5bc6830d9b7c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a39342d34a8baa74b68695d3cff31959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa8576dfaf13eccc2cca8f9cccb62434 = $(`<div id="html_aa8576dfaf13eccc2cca8f9cccb62434" style="width: 100.0%; height: 100.0%;">Argentina: 207706.0 tonnes</div>`)[0];
+                popup_a39342d34a8baa74b68695d3cff31959.setContent(html_aa8576dfaf13eccc2cca8f9cccb62434);
+            
+        
+
+        circle_marker_c6990b68510913ba581d5bc6830d9b7c.bindPopup(popup_a39342d34a8baa74b68695d3cff31959)
+        ;
+
+        
+    
+    
+            var circle_marker_411b0a406774b6807417d766b23d950e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_70a9a55863c6cac2497b69a5d49e8930 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_791895b5ba5d528548b6ab750fd935b1 = $(`<div id="html_791895b5ba5d528548b6ab750fd935b1" style="width: 100.0%; height: 100.0%;">Armenia: 278.72 tonnes</div>`)[0];
+                popup_70a9a55863c6cac2497b69a5d49e8930.setContent(html_791895b5ba5d528548b6ab750fd935b1);
+            
+        
+
+        circle_marker_411b0a406774b6807417d766b23d950e.bindPopup(popup_70a9a55863c6cac2497b69a5d49e8930)
+        ;
+
+        
+    
+    
+            var circle_marker_e07a88c49cc3dd61a0c1380a82285c0e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0dc2241d41943bf9828debd789af043f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a771ae4c9b57a2d7e5889458541172f = $(`<div id="html_3a771ae4c9b57a2d7e5889458541172f" style="width: 100.0%; height: 100.0%;">Australia: 50921.6 tonnes</div>`)[0];
+                popup_0dc2241d41943bf9828debd789af043f.setContent(html_3a771ae4c9b57a2d7e5889458541172f);
+            
+        
+
+        circle_marker_e07a88c49cc3dd61a0c1380a82285c0e.bindPopup(popup_0dc2241d41943bf9828debd789af043f)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb8862a369542bbcbee451b1059943f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_d211fd48c8166594f93741d4d430503e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_042b28f470187fd6643f06510b05bd31 = $(`<div id="html_042b28f470187fd6643f06510b05bd31" style="width: 100.0%; height: 100.0%;">Austria: 3662.1 tonnes</div>`)[0];
+                popup_d211fd48c8166594f93741d4d430503e.setContent(html_042b28f470187fd6643f06510b05bd31);
+            
+        
+
+        circle_marker_1bb8862a369542bbcbee451b1059943f.bindPopup(popup_d211fd48c8166594f93741d4d430503e)
+        ;
+
+        
+    
+    
+            var circle_marker_28dfd655700199736a6963b4c67bd505 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_310ca024d98ab2bdaba33aca68f6aa2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62b5546719c8614e542d22b676a8ec8f = $(`<div id="html_62b5546719c8614e542d22b676a8ec8f" style="width: 100.0%; height: 100.0%;">Azerbaijan: 542.82 tonnes</div>`)[0];
+                popup_310ca024d98ab2bdaba33aca68f6aa2f.setContent(html_62b5546719c8614e542d22b676a8ec8f);
+            
+        
+
+        circle_marker_28dfd655700199736a6963b4c67bd505.bindPopup(popup_310ca024d98ab2bdaba33aca68f6aa2f)
+        ;
+
+        
+    
+    
+            var circle_marker_6e2bc938cd6c1d029d2eb44e96ccd1e1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_3c1017380a75b591001d855d4ec07545 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_612bc9cdca40d03eb6fb040d1af1ffcd = $(`<div id="html_612bc9cdca40d03eb6fb040d1af1ffcd" style="width: 100.0%; height: 100.0%;">Bahamas: 268.2 tonnes</div>`)[0];
+                popup_3c1017380a75b591001d855d4ec07545.setContent(html_612bc9cdca40d03eb6fb040d1af1ffcd);
+            
+        
+
+        circle_marker_6e2bc938cd6c1d029d2eb44e96ccd1e1.bindPopup(popup_3c1017380a75b591001d855d4ec07545)
+        ;
+
+        
+    
+    
+            var circle_marker_6ccf103b443b8ffea9b2fb423ce5a565 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_767bcd10a6db1cced3989e9a97f5277c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d266a08e4fc39fc33c5902615ba4c67f = $(`<div id="html_d266a08e4fc39fc33c5902615ba4c67f" style="width: 100.0%; height: 100.0%;">Bahrain: 9.14 tonnes</div>`)[0];
+                popup_767bcd10a6db1cced3989e9a97f5277c.setContent(html_d266a08e4fc39fc33c5902615ba4c67f);
+            
+        
+
+        circle_marker_6ccf103b443b8ffea9b2fb423ce5a565.bindPopup(popup_767bcd10a6db1cced3989e9a97f5277c)
+        ;
+
+        
+    
+    
+            var circle_marker_cf20369e2ac6807a4263833c6578e22c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_75ef5c87cb68cf4971bd9aeec59c5911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5174846aba3e361a5645b1add4fe74df = $(`<div id="html_5174846aba3e361a5645b1add4fe74df" style="width: 100.0%; height: 100.0%;">Bangladesh: 14387.63 tonnes</div>`)[0];
+                popup_75ef5c87cb68cf4971bd9aeec59c5911.setContent(html_5174846aba3e361a5645b1add4fe74df);
+            
+        
+
+        circle_marker_cf20369e2ac6807a4263833c6578e22c.bindPopup(popup_75ef5c87cb68cf4971bd9aeec59c5911)
+        ;
+
+        
+    
+    
+            var circle_marker_61bbd81090e68f324beed5eff226c02f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_26b4453d78dd795393a45785952640c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e290bc29b665386379ed88121591129 = $(`<div id="html_0e290bc29b665386379ed88121591129" style="width: 100.0%; height: 100.0%;">Barbados: 168.46 tonnes</div>`)[0];
+                popup_26b4453d78dd795393a45785952640c2.setContent(html_0e290bc29b665386379ed88121591129);
+            
+        
+
+        circle_marker_61bbd81090e68f324beed5eff226c02f.bindPopup(popup_26b4453d78dd795393a45785952640c2)
+        ;
+
+        
+    
+    
+            var circle_marker_13523e185f69121a8b0a70a9aad2aa3f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_dd5ff7d58c54a799493060f1d698e290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c504fe29e5d5cfe11d52da085c99686 = $(`<div id="html_9c504fe29e5d5cfe11d52da085c99686" style="width: 100.0%; height: 100.0%;">Belarus: 5533.55 tonnes</div>`)[0];
+                popup_dd5ff7d58c54a799493060f1d698e290.setContent(html_9c504fe29e5d5cfe11d52da085c99686);
+            
+        
+
+        circle_marker_13523e185f69121a8b0a70a9aad2aa3f.bindPopup(popup_dd5ff7d58c54a799493060f1d698e290)
+        ;
+
+        
+    
+    
+            var circle_marker_916c63aea871f04c64156bf288cc76e3 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_195aa354a77714964b8110b9380bea17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51ffe9310fe0cf29188509a82f7c8944 = $(`<div id="html_51ffe9310fe0cf29188509a82f7c8944" style="width: 100.0%; height: 100.0%;">Belgium: 6014.67 tonnes</div>`)[0];
+                popup_195aa354a77714964b8110b9380bea17.setContent(html_51ffe9310fe0cf29188509a82f7c8944);
+            
+        
+
+        circle_marker_916c63aea871f04c64156bf288cc76e3.bindPopup(popup_195aa354a77714964b8110b9380bea17)
+        ;
+
+        
+    
+    
+            var circle_marker_c5cac195311fd82afa5b6a9bc73c9786 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_739f65f6070dbda16658435c888081bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5f2e8e1ea7ece2ce0eeb98be6ddc3d0 = $(`<div id="html_c5f2e8e1ea7ece2ce0eeb98be6ddc3d0" style="width: 100.0%; height: 100.0%;">Belize: 880.1 tonnes</div>`)[0];
+                popup_739f65f6070dbda16658435c888081bc.setContent(html_c5f2e8e1ea7ece2ce0eeb98be6ddc3d0);
+            
+        
+
+        circle_marker_c5cac195311fd82afa5b6a9bc73c9786.bindPopup(popup_739f65f6070dbda16658435c888081bc)
+        ;
+
+        
+    
+    
+            var circle_marker_c7948ce34ae6ccdb6fbf2f3c739877c0 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_27b76808fc1a2846ebb5bd9a9f276bc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20c30c7b0ef0a987c080b7e6fc88814d = $(`<div id="html_20c30c7b0ef0a987c080b7e6fc88814d" style="width: 100.0%; height: 100.0%;">Bermuda: 126.53 tonnes</div>`)[0];
+                popup_27b76808fc1a2846ebb5bd9a9f276bc5.setContent(html_20c30c7b0ef0a987c080b7e6fc88814d);
+            
+        
+
+        circle_marker_c7948ce34ae6ccdb6fbf2f3c739877c0.bindPopup(popup_27b76808fc1a2846ebb5bd9a9f276bc5)
+        ;
+
+        
+    
+    
+            var circle_marker_23dd0b7f9a9d94ebf5f72cb652db9c42 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9ec58bf8fbbbc43afe8c76dcc303f228 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8251dd21c7e2873134eb38ab0548719e = $(`<div id="html_8251dd21c7e2873134eb38ab0548719e" style="width: 100.0%; height: 100.0%;">Bhutan: 7.03 tonnes</div>`)[0];
+                popup_9ec58bf8fbbbc43afe8c76dcc303f228.setContent(html_8251dd21c7e2873134eb38ab0548719e);
+            
+        
+
+        circle_marker_23dd0b7f9a9d94ebf5f72cb652db9c42.bindPopup(popup_9ec58bf8fbbbc43afe8c76dcc303f228)
+        ;
+
+        
+    
+    
+            var circle_marker_073c6430e0f28be976f0f128128f94ae = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_11026329dd4c2ac659aa763b38771e9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_856d9e5068f741f4534d64782065a62e = $(`<div id="html_856d9e5068f741f4534d64782065a62e" style="width: 100.0%; height: 100.0%;">Bolivia (Plurinational State of): 25872.29 tonnes</div>`)[0];
+                popup_11026329dd4c2ac659aa763b38771e9c.setContent(html_856d9e5068f741f4534d64782065a62e);
+            
+        
+
+        circle_marker_073c6430e0f28be976f0f128128f94ae.bindPopup(popup_11026329dd4c2ac659aa763b38771e9c)
+        ;
+
+        
+    
+    
+            var circle_marker_0f14297f41f9e418856bcbcff4446861 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f8c6a6fb8eb7d017bbaa44edcbed9dab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46f947ea68476fcb82d80b619ab1f963 = $(`<div id="html_46f947ea68476fcb82d80b619ab1f963" style="width: 100.0%; height: 100.0%;">Botswana: 17.0 tonnes</div>`)[0];
+                popup_f8c6a6fb8eb7d017bbaa44edcbed9dab.setContent(html_46f947ea68476fcb82d80b619ab1f963);
+            
+        
+
+        circle_marker_0f14297f41f9e418856bcbcff4446861.bindPopup(popup_f8c6a6fb8eb7d017bbaa44edcbed9dab)
+        ;
+
+        
+    
+    
+            var circle_marker_c01d028c781e560600e2caab7351a477 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_bac01b256a10244c835625aab686d0ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88f2d1e9eca0ef013ebc3179ac447367 = $(`<div id="html_88f2d1e9eca0ef013ebc3179ac447367" style="width: 100.0%; height: 100.0%;">Brazil: 377176.0 tonnes</div>`)[0];
+                popup_bac01b256a10244c835625aab686d0ec.setContent(html_88f2d1e9eca0ef013ebc3179ac447367);
+            
+        
+
+        circle_marker_c01d028c781e560600e2caab7351a477.bindPopup(popup_bac01b256a10244c835625aab686d0ec)
+        ;
+
+        
+    
+    
+            var circle_marker_ed5c3c1855c50b030c9ffc186817fceb = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_791157329e92a9bfca48592583d65a3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0deb91c6046b3c4e155138153c29de2e = $(`<div id="html_0deb91c6046b3c4e155138153c29de2e" style="width: 100.0%; height: 100.0%;">Brunei Darussalam: 20.54 tonnes</div>`)[0];
+                popup_791157329e92a9bfca48592583d65a3d.setContent(html_0deb91c6046b3c4e155138153c29de2e);
+            
+        
+
+        circle_marker_ed5c3c1855c50b030c9ffc186817fceb.bindPopup(popup_791157329e92a9bfca48592583d65a3d)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd0f41c18ce1b7ead3fb7f6ccd3d760 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_62c1871a28672441878e5fc1ac00fa57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19d39b3f48a2ce3ed90a06eb3bd8ede0 = $(`<div id="html_19d39b3f48a2ce3ed90a06eb3bd8ede0" style="width: 100.0%; height: 100.0%;">Bulgaria: 3759.1 tonnes</div>`)[0];
+                popup_62c1871a28672441878e5fc1ac00fa57.setContent(html_19d39b3f48a2ce3ed90a06eb3bd8ede0);
+            
+        
+
+        circle_marker_4dd0f41c18ce1b7ead3fb7f6ccd3d760.bindPopup(popup_62c1871a28672441878e5fc1ac00fa57)
+        ;
+
+        
+    
+    
+            var circle_marker_d47871ed73a7aa7debf05d3be7fa7a6a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4791f5b86e736475add116ed82144b12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_723ce3a75fca4b9a10411e7fdd59b076 = $(`<div id="html_723ce3a75fca4b9a10411e7fdd59b076" style="width: 100.0%; height: 100.0%;">Burkina Faso: 843.0 tonnes</div>`)[0];
+                popup_4791f5b86e736475add116ed82144b12.setContent(html_723ce3a75fca4b9a10411e7fdd59b076);
+            
+        
+
+        circle_marker_d47871ed73a7aa7debf05d3be7fa7a6a.bindPopup(popup_4791f5b86e736475add116ed82144b12)
+        ;
+
+        
+    
+    
+            var circle_marker_1a7528c878acdc23e0692a3a8a999418 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_b2d7036de1c83df8410294a972934047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94353e9b2e49a9b986c02e69a0bcba11 = $(`<div id="html_94353e9b2e49a9b986c02e69a0bcba11" style="width: 100.0%; height: 100.0%;">Burundi: 28.18 tonnes</div>`)[0];
+                popup_b2d7036de1c83df8410294a972934047.setContent(html_94353e9b2e49a9b986c02e69a0bcba11);
+            
+        
+
+        circle_marker_1a7528c878acdc23e0692a3a8a999418.bindPopup(popup_b2d7036de1c83df8410294a972934047)
+        ;
+
+        
+    
+    
+            var circle_marker_2ef992552e182fb6453ec2654653b9ad = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_860c78f0c17f5c52b9090574b3fd7a97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d84054425dd68a81ff1bd9043c2cfe13 = $(`<div id="html_d84054425dd68a81ff1bd9043c2cfe13" style="width: 100.0%; height: 100.0%;">Cabo Verde: 5.0 tonnes</div>`)[0];
+                popup_860c78f0c17f5c52b9090574b3fd7a97.setContent(html_d84054425dd68a81ff1bd9043c2cfe13);
+            
+        
+
+        circle_marker_2ef992552e182fb6453ec2654653b9ad.bindPopup(popup_860c78f0c17f5c52b9090574b3fd7a97)
+        ;
+
+        
+    
+    
+            var circle_marker_b809c0e45f229089357d013e08d4935a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9fe2221c826074432821250d7dd09ba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_613a38ad2a212861808b53c185fbed77 = $(`<div id="html_613a38ad2a212861808b53c185fbed77" style="width: 100.0%; height: 100.0%;">Cameroon: 1372.47 tonnes</div>`)[0];
+                popup_9fe2221c826074432821250d7dd09ba6.setContent(html_613a38ad2a212861808b53c185fbed77);
+            
+        
+
+        circle_marker_b809c0e45f229089357d013e08d4935a.bindPopup(popup_9fe2221c826074432821250d7dd09ba6)
+        ;
+
+        
+    
+    
+            var circle_marker_b5a89fef320a98bbb05cf701638c8f31 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_dd569bee82a110cb2d2bfc4f2472746a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9eb089cd56d7b9d9e070db07a1c4b4d7 = $(`<div id="html_9eb089cd56d7b9d9e070db07a1c4b4d7" style="width: 100.0%; height: 100.0%;">Canada: 75318.3 tonnes</div>`)[0];
+                popup_dd569bee82a110cb2d2bfc4f2472746a.setContent(html_9eb089cd56d7b9d9e070db07a1c4b4d7);
+            
+        
+
+        circle_marker_b5a89fef320a98bbb05cf701638c8f31.bindPopup(popup_dd569bee82a110cb2d2bfc4f2472746a)
+        ;
+
+        
+    
+    
+            var circle_marker_41965df99445c39d50aa6e356eae3767 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_30218cdefea6eea9cbe6d75f49636419 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfe241cb099a79fbb4a77d1d9a5a0068 = $(`<div id="html_dfe241cb099a79fbb4a77d1d9a5a0068" style="width: 100.0%; height: 100.0%;">Central African Republic: 22.87 tonnes</div>`)[0];
+                popup_30218cdefea6eea9cbe6d75f49636419.setContent(html_dfe241cb099a79fbb4a77d1d9a5a0068);
+            
+        
+
+        circle_marker_41965df99445c39d50aa6e356eae3767.bindPopup(popup_30218cdefea6eea9cbe6d75f49636419)
+        ;
+
+        
+    
+    
+            var circle_marker_bb8c11248f78eb6aee8a4d90bcfa92e4 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_89e53eb104144ecf3a5350b678dd0610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa0269160a42ea55e827ea8d49bd6ad9 = $(`<div id="html_aa0269160a42ea55e827ea8d49bd6ad9" style="width: 100.0%; height: 100.0%;">Chad: 42.0 tonnes</div>`)[0];
+                popup_89e53eb104144ecf3a5350b678dd0610.setContent(html_aa0269160a42ea55e827ea8d49bd6ad9);
+            
+        
+
+        circle_marker_bb8c11248f78eb6aee8a4d90bcfa92e4.bindPopup(popup_89e53eb104144ecf3a5350b678dd0610)
+        ;
+
+        
+    
+    
+            var circle_marker_f89f13dce035e9d87897ed6f520cd595 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a40a320f75af88549df1b7cf3531ff91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d3d4b5ecd83e57e10dd048b66942e4b = $(`<div id="html_2d3d4b5ecd83e57e10dd048b66942e4b" style="width: 100.0%; height: 100.0%;">Chile: 9830.72 tonnes</div>`)[0];
+                popup_a40a320f75af88549df1b7cf3531ff91.setContent(html_2d3d4b5ecd83e57e10dd048b66942e4b);
+            
+        
+
+        circle_marker_f89f13dce035e9d87897ed6f520cd595.bindPopup(popup_a40a320f75af88549df1b7cf3531ff91)
+        ;
+
+        
+    
+    
+            var circle_marker_7c2c366bcc960e16d7a921b7e418cb02 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_2922814ab1d09813b05ac87d11cc7e93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c6482c1b1cedccff4eca58fb6dd3ee6 = $(`<div id="html_3c6482c1b1cedccff4eca58fb6dd3ee6" style="width: 100.0%; height: 100.0%;">China, Hong Kong SAR: 68.0 tonnes</div>`)[0];
+                popup_2922814ab1d09813b05ac87d11cc7e93.setContent(html_3c6482c1b1cedccff4eca58fb6dd3ee6);
+            
+        
+
+        circle_marker_7c2c366bcc960e16d7a921b7e418cb02.bindPopup(popup_2922814ab1d09813b05ac87d11cc7e93)
+        ;
+
+        
+    
+    
+            var circle_marker_48ad059b890f215803081a0861350d7c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_e3902d128a1d4caf48f8369954616297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79ea32c4f9e86b45f65636977b90d24f = $(`<div id="html_79ea32c4f9e86b45f65636977b90d24f" style="width: 100.0%; height: 100.0%;">China, Macao SAR: 3.14 tonnes</div>`)[0];
+                popup_e3902d128a1d4caf48f8369954616297.setContent(html_79ea32c4f9e86b45f65636977b90d24f);
+            
+        
+
+        circle_marker_48ad059b890f215803081a0861350d7c.bindPopup(popup_e3902d128a1d4caf48f8369954616297)
+        ;
+
+        
+    
+    
+            var circle_marker_04c0c958170d8c4c942db5cc397cf051 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_2971d6672b9d727d738b3574efed0bc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_624666b990e41c044db1d10b11d39864 = $(`<div id="html_624666b990e41c044db1d10b11d39864" style="width: 100.0%; height: 100.0%;">China, mainland: 1763000.0 tonnes</div>`)[0];
+                popup_2971d6672b9d727d738b3574efed0bc2.setContent(html_624666b990e41c044db1d10b11d39864);
+            
+        
+
+        circle_marker_04c0c958170d8c4c942db5cc397cf051.bindPopup(popup_2971d6672b9d727d738b3574efed0bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_47ba2ae04eb7a0b1e47cd773a93fd3dc = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_73a7506a5a76fa20eba060ec74fc0d63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eaf284dff5c5bca3adc7dbd3b246473 = $(`<div id="html_5eaf284dff5c5bca3adc7dbd3b246473" style="width: 100.0%; height: 100.0%;">China, Taiwan Province of: 9296.0 tonnes</div>`)[0];
+                popup_73a7506a5a76fa20eba060ec74fc0d63.setContent(html_5eaf284dff5c5bca3adc7dbd3b246473);
+            
+        
+
+        circle_marker_47ba2ae04eb7a0b1e47cd773a93fd3dc.bindPopup(popup_73a7506a5a76fa20eba060ec74fc0d63)
+        ;
+
+        
+    
+    
+            var circle_marker_569c8db8995aef366791059bc22c0a52 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_fbc1874ac0a4d2f3843729686ffb73c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b213f94db959e955d2206f1748f7ac2 = $(`<div id="html_7b213f94db959e955d2206f1748f7ac2" style="width: 100.0%; height: 100.0%;">Colombia: 47343.85 tonnes</div>`)[0];
+                popup_fbc1874ac0a4d2f3843729686ffb73c7.setContent(html_7b213f94db959e955d2206f1748f7ac2);
+            
+        
+
+        circle_marker_569c8db8995aef366791059bc22c0a52.bindPopup(popup_fbc1874ac0a4d2f3843729686ffb73c7)
+        ;
+
+        
+    
+    
+            var circle_marker_72b5f7dadc0d16a7674a1a93800c5fd4 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_6571ac2e93420748cb327af49264b8d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56188788bb85d4ddf4d62cd625ff659b = $(`<div id="html_56188788bb85d4ddf4d62cd625ff659b" style="width: 100.0%; height: 100.0%;">Comoros: 0.03 tonnes</div>`)[0];
+                popup_6571ac2e93420748cb327af49264b8d2.setContent(html_56188788bb85d4ddf4d62cd625ff659b);
+            
+        
+
+        circle_marker_72b5f7dadc0d16a7674a1a93800c5fd4.bindPopup(popup_6571ac2e93420748cb327af49264b8d2)
+        ;
+
+        
+    
+    
+            var circle_marker_b8856b8113c7f898d4d0eda2928a265c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_b1ec58cf8feafc231a486e15c323a3c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_445e01e1be568b0221326325ac73f9ed = $(`<div id="html_445e01e1be568b0221326325ac73f9ed" style="width: 100.0%; height: 100.0%;">Congo: 0.87 tonnes</div>`)[0];
+                popup_b1ec58cf8feafc231a486e15c323a3c4.setContent(html_445e01e1be568b0221326325ac73f9ed);
+            
+        
+
+        circle_marker_b8856b8113c7f898d4d0eda2928a265c.bindPopup(popup_b1ec58cf8feafc231a486e15c323a3c4)
+        ;
+
+        
+    
+    
+            var circle_marker_f31b4e464569c5a08159000ce57fe83a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_700c1ddc7d50398f56625c593c937330 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90ceea6d1f971e44846870c0fc5c44bd = $(`<div id="html_90ceea6d1f971e44846870c0fc5c44bd" style="width: 100.0%; height: 100.0%;">Cook Islands: 3.33 tonnes</div>`)[0];
+                popup_700c1ddc7d50398f56625c593c937330.setContent(html_90ceea6d1f971e44846870c0fc5c44bd);
+            
+        
+
+        circle_marker_f31b4e464569c5a08159000ce57fe83a.bindPopup(popup_700c1ddc7d50398f56625c593c937330)
+        ;
+
+        
+    
+    
+            var circle_marker_15e4dca59a01a502a713f3187a78012f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_1ca2eb920f003c410a55f88c6236b255 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca3eabc757ce52c60a966362cd753dec = $(`<div id="html_ca3eabc757ce52c60a966362cd753dec" style="width: 100.0%; height: 100.0%;">Costa Rica: 12811.25 tonnes</div>`)[0];
+                popup_1ca2eb920f003c410a55f88c6236b255.setContent(html_ca3eabc757ce52c60a966362cd753dec);
+            
+        
+
+        circle_marker_15e4dca59a01a502a713f3187a78012f.bindPopup(popup_1ca2eb920f003c410a55f88c6236b255)
+        ;
+
+        
+    
+    
+            var circle_marker_a5434e165cd71c44e63a7b39a2d0e121 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f7a0f19009e1a6906d62f415857e08e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25c7baa29802a8d370930df6fad248fa = $(`<div id="html_25c7baa29802a8d370930df6fad248fa" style="width: 100.0%; height: 100.0%;">Côte d'Ivoire: 93.0 tonnes</div>`)[0];
+                popup_f7a0f19009e1a6906d62f415857e08e0.setContent(html_25c7baa29802a8d370930df6fad248fa);
+            
+        
+
+        circle_marker_a5434e165cd71c44e63a7b39a2d0e121.bindPopup(popup_f7a0f19009e1a6906d62f415857e08e0)
+        ;
+
+        
+    
+    
+            var circle_marker_09294cf3858a6e8ac9c938e2eb86ae0e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_e32edf3af0f07f11072e8959a648f2bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e082279c2693bc576be5cb0e830cf61 = $(`<div id="html_7e082279c2693bc576be5cb0e830cf61" style="width: 100.0%; height: 100.0%;">Croatia: 1760.35 tonnes</div>`)[0];
+                popup_e32edf3af0f07f11072e8959a648f2bc.setContent(html_7e082279c2693bc576be5cb0e830cf61);
+            
+        
+
+        circle_marker_09294cf3858a6e8ac9c938e2eb86ae0e.bindPopup(popup_e32edf3af0f07f11072e8959a648f2bc)
+        ;
+
+        
+    
+    
+            var circle_marker_bff7ddb5e8d399bd15ad163ffd9bd506 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_669f82d066d8c11cffd6a5dcc20c3bc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c78705c45591d69f4ad775d2df854013 = $(`<div id="html_c78705c45591d69f4ad775d2df854013" style="width: 100.0%; height: 100.0%;">Cyprus: 615.2 tonnes</div>`)[0];
+                popup_669f82d066d8c11cffd6a5dcc20c3bc2.setContent(html_c78705c45591d69f4ad775d2df854013);
+            
+        
+
+        circle_marker_bff7ddb5e8d399bd15ad163ffd9bd506.bindPopup(popup_669f82d066d8c11cffd6a5dcc20c3bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_7bc7e7cf72d626461abefdf5be54bedc = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_31cd5b7379fa8bc2dd183a0997068ae4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35538bf97b34fa72f5bfb71ad3c0dddb = $(`<div id="html_35538bf97b34fa72f5bfb71ad3c0dddb" style="width: 100.0%; height: 100.0%;">Czechia: 4433.89 tonnes</div>`)[0];
+                popup_31cd5b7379fa8bc2dd183a0997068ae4.setContent(html_35538bf97b34fa72f5bfb71ad3c0dddb);
+            
+        
+
+        circle_marker_7bc7e7cf72d626461abefdf5be54bedc.bindPopup(popup_31cd5b7379fa8bc2dd183a0997068ae4)
+        ;
+
+        
+    
+    
+            var circle_marker_5d12cdf45b0a4faa97c4684379a6122d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_27a99a742c34076feb92c3aee06a9c87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_601ed2be85e050f223734d8660363625 = $(`<div id="html_601ed2be85e050f223734d8660363625" style="width: 100.0%; height: 100.0%;">Denmark: 2641.0 tonnes</div>`)[0];
+                popup_27a99a742c34076feb92c3aee06a9c87.setContent(html_601ed2be85e050f223734d8660363625);
+            
+        
+
+        circle_marker_5d12cdf45b0a4faa97c4684379a6122d.bindPopup(popup_27a99a742c34076feb92c3aee06a9c87)
+        ;
+
+        
+    
+    
+            var circle_marker_fff5ca8a23b2f582f74780d9f5493980 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f695acf460ef504b098a03a9237cbf67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e536c0adf9263cb04661955dd14a3261 = $(`<div id="html_e536c0adf9263cb04661955dd14a3261" style="width: 100.0%; height: 100.0%;">Dominican Republic: 6316.61 tonnes</div>`)[0];
+                popup_f695acf460ef504b098a03a9237cbf67.setContent(html_e536c0adf9263cb04661955dd14a3261);
+            
+        
+
+        circle_marker_fff5ca8a23b2f582f74780d9f5493980.bindPopup(popup_f695acf460ef504b098a03a9237cbf67)
+        ;
+
+        
+    
+    
+            var circle_marker_9d02fe9c4937546bf39864bdbc1116cb = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_e2ec9315aa7acaee873ca4d29053a2c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0072b9c75d62ae94265bafec742c9129 = $(`<div id="html_0072b9c75d62ae94265bafec742c9129" style="width: 100.0%; height: 100.0%;">Ecuador: 29847.0 tonnes</div>`)[0];
+                popup_e2ec9315aa7acaee873ca4d29053a2c8.setContent(html_0072b9c75d62ae94265bafec742c9129);
+            
+        
+
+        circle_marker_9d02fe9c4937546bf39864bdbc1116cb.bindPopup(popup_e2ec9315aa7acaee873ca4d29053a2c8)
+        ;
+
+        
+    
+    
+            var circle_marker_948919f18be3e73b97539ecc4b5d5fad = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0419fa4297e73e8c136899076a08c7e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3af2b327557e1c1d01296bbe3386db0e = $(`<div id="html_3af2b327557e1c1d01296bbe3386db0e" style="width: 100.0%; height: 100.0%;">Egypt: 8043.71 tonnes</div>`)[0];
+                popup_0419fa4297e73e8c136899076a08c7e5.setContent(html_3af2b327557e1c1d01296bbe3386db0e);
+            
+        
+
+        circle_marker_948919f18be3e73b97539ecc4b5d5fad.bindPopup(popup_0419fa4297e73e8c136899076a08c7e5)
+        ;
+
+        
+    
+    
+            var circle_marker_18728936de61aa3b06a22ac4176ed083 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_ab5e8a707613a79be67a025337b5a5b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68aafb85b01d71fe7cd10a70fa733b43 = $(`<div id="html_68aafb85b01d71fe7cd10a70fa733b43" style="width: 100.0%; height: 100.0%;">El Salvador: 5638.23 tonnes</div>`)[0];
+                popup_ab5e8a707613a79be67a025337b5a5b2.setContent(html_68aafb85b01d71fe7cd10a70fa733b43);
+            
+        
+
+        circle_marker_18728936de61aa3b06a22ac4176ed083.bindPopup(popup_ab5e8a707613a79be67a025337b5a5b2)
+        ;
+
+        
+    
+    
+            var circle_marker_97a3368a1398a3b7cc4e7e1d2eb4453d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_998698778925eea94ebe046a875766d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88e331d4e1d6fa80db8e78f1c7e1dd0c = $(`<div id="html_88e331d4e1d6fa80db8e78f1c7e1dd0c" style="width: 100.0%; height: 100.0%;">Eritrea: 27.63 tonnes</div>`)[0];
+                popup_998698778925eea94ebe046a875766d0.setContent(html_88e331d4e1d6fa80db8e78f1c7e1dd0c);
+            
+        
+
+        circle_marker_97a3368a1398a3b7cc4e7e1d2eb4453d.bindPopup(popup_998698778925eea94ebe046a875766d0)
+        ;
+
+        
+    
+    
+            var circle_marker_ad1e7af15fcc39064b144a7fb592576b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_b6c839d35fe7c50aeb8313a4345fd3ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7336a469aa86efbc1fd6e17c4afed8b7 = $(`<div id="html_7336a469aa86efbc1fd6e17c4afed8b7" style="width: 100.0%; height: 100.0%;">Estonia: 712.0 tonnes</div>`)[0];
+                popup_b6c839d35fe7c50aeb8313a4345fd3ab.setContent(html_7336a469aa86efbc1fd6e17c4afed8b7);
+            
+        
+
+        circle_marker_ad1e7af15fcc39064b144a7fb592576b.bindPopup(popup_b6c839d35fe7c50aeb8313a4345fd3ab)
+        ;
+
+        
+    
+    
+            var circle_marker_f5d1ae85919d89675c3c449ed9b018d1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_d97003935066e13b09a3555161be5117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fefe0a87209ff5e3c0a5d8a061048ab = $(`<div id="html_5fefe0a87209ff5e3c0a5d8a061048ab" style="width: 100.0%; height: 100.0%;">Ethiopia: 4128.1 tonnes</div>`)[0];
+                popup_d97003935066e13b09a3555161be5117.setContent(html_5fefe0a87209ff5e3c0a5d8a061048ab);
+            
+        
+
+        circle_marker_f5d1ae85919d89675c3c449ed9b018d1.bindPopup(popup_d97003935066e13b09a3555161be5117)
+        ;
+
+        
+    
+    
+            var circle_marker_f23adb29db869fccbdc575b2dd2ff7db = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_47b22951f52d9c0701a80870e093be8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1d885633dcb44ce67d3dbe3598b7fce = $(`<div id="html_f1d885633dcb44ce67d3dbe3598b7fce" style="width: 100.0%; height: 100.0%;">Fiji: 1265.34 tonnes</div>`)[0];
+                popup_47b22951f52d9c0701a80870e093be8c.setContent(html_f1d885633dcb44ce67d3dbe3598b7fce);
+            
+        
+
+        circle_marker_f23adb29db869fccbdc575b2dd2ff7db.bindPopup(popup_47b22951f52d9c0701a80870e093be8c)
+        ;
+
+        
+    
+    
+            var circle_marker_d658e52fb0f4e30cc1566c5b0c42132d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_70090458198c9824a08943bd5e2a10e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3f0bc288a792e3ec5259017d40bf3f1 = $(`<div id="html_c3f0bc288a792e3ec5259017d40bf3f1" style="width: 100.0%; height: 100.0%;">Finland: 1566.3 tonnes</div>`)[0];
+                popup_70090458198c9824a08943bd5e2a10e0.setContent(html_c3f0bc288a792e3ec5259017d40bf3f1);
+            
+        
+
+        circle_marker_d658e52fb0f4e30cc1566c5b0c42132d.bindPopup(popup_70090458198c9824a08943bd5e2a10e0)
+        ;
+
+        
+    
+    
+            var circle_marker_247991c558d8559b03813eef1380a74d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_50ea49f802ea681e5e5e4274e2729546 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fa8a4e4480ae3166bcb034560f42604 = $(`<div id="html_6fa8a4e4480ae3166bcb034560f42604" style="width: 100.0%; height: 100.0%;">France: 71951.22 tonnes</div>`)[0];
+                popup_50ea49f802ea681e5e5e4274e2729546.setContent(html_6fa8a4e4480ae3166bcb034560f42604);
+            
+        
+
+        circle_marker_247991c558d8559b03813eef1380a74d.bindPopup(popup_50ea49f802ea681e5e5e4274e2729546)
+        ;
+
+        
+    
+    
+            var circle_marker_42663a79a70fc38799e08f4a97e4d90c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a88a332a4d7433b6b1cc7ab3d8efb3f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5df03715b21d379e89c05b73215db063 = $(`<div id="html_5df03715b21d379e89c05b73215db063" style="width: 100.0%; height: 100.0%;">French Polynesia: 25.66 tonnes</div>`)[0];
+                popup_a88a332a4d7433b6b1cc7ab3d8efb3f8.setContent(html_5df03715b21d379e89c05b73215db063);
+            
+        
+
+        circle_marker_42663a79a70fc38799e08f4a97e4d90c.bindPopup(popup_a88a332a4d7433b6b1cc7ab3d8efb3f8)
+        ;
+
+        
+    
+    
+            var circle_marker_b431308f869ab23d67bd926ce781c378 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_8992c200c521190edac5f28eb13ad240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1044b36a3a9d1153b465ce7381ea451a = $(`<div id="html_1044b36a3a9d1153b465ce7381ea451a" style="width: 100.0%; height: 100.0%;">Gambia: 588.0 tonnes</div>`)[0];
+                popup_8992c200c521190edac5f28eb13ad240.setContent(html_1044b36a3a9d1153b465ce7381ea451a);
+            
+        
+
+        circle_marker_b431308f869ab23d67bd926ce781c378.bindPopup(popup_8992c200c521190edac5f28eb13ad240)
+        ;
+
+        
+    
+    
+            var circle_marker_bf9e09121fe62e5d88aa485af1819c52 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_dc490b70a29bc6d837a8d1b74a1557dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeb2be531126030ab7f66182a3db70c8 = $(`<div id="html_eeb2be531126030ab7f66182a3db70c8" style="width: 100.0%; height: 100.0%;">Germany: 46920.98 tonnes</div>`)[0];
+                popup_dc490b70a29bc6d837a8d1b74a1557dc.setContent(html_eeb2be531126030ab7f66182a3db70c8);
+            
+        
+
+        circle_marker_bf9e09121fe62e5d88aa485af1819c52.bindPopup(popup_dc490b70a29bc6d837a8d1b74a1557dc)
+        ;
+
+        
+    
+    
+            var circle_marker_19223d1ab7986888eff7856c6be416c0 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c43b7ce10d791e0457c80f617101b9a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38cf127ce56cd7418197f65f453fe68b = $(`<div id="html_38cf127ce56cd7418197f65f453fe68b" style="width: 100.0%; height: 100.0%;">Ghana: 378.97 tonnes</div>`)[0];
+                popup_c43b7ce10d791e0457c80f617101b9a3.setContent(html_38cf127ce56cd7418197f65f453fe68b);
+            
+        
+
+        circle_marker_19223d1ab7986888eff7856c6be416c0.bindPopup(popup_c43b7ce10d791e0457c80f617101b9a3)
+        ;
+
+        
+    
+    
+            var circle_marker_9516f76be1101d803e7b9560de62608f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_da9a0135cd977c344ba98903e2f8da56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ca346413f7fdd0128417363f90d27a1 = $(`<div id="html_6ca346413f7fdd0128417363f90d27a1" style="width: 100.0%; height: 100.0%;">Greece: 10448.17 tonnes</div>`)[0];
+                popup_da9a0135cd977c344ba98903e2f8da56.setContent(html_6ca346413f7fdd0128417363f90d27a1);
+            
+        
+
+        circle_marker_9516f76be1101d803e7b9560de62608f.bindPopup(popup_da9a0135cd977c344ba98903e2f8da56)
+        ;
+
+        
+    
+    
+            var circle_marker_9469b753bd4377c66fb15f49749cf96b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_b40cca8671c9ad9b4f160cd00dea577b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_237d9146bef3ff87e0af6b3788ee029d = $(`<div id="html_237d9146bef3ff87e0af6b3788ee029d" style="width: 100.0%; height: 100.0%;">Guatemala: 20489.4 tonnes</div>`)[0];
+                popup_b40cca8671c9ad9b4f160cd00dea577b.setContent(html_237d9146bef3ff87e0af6b3788ee029d);
+            
+        
+
+        circle_marker_9469b753bd4377c66fb15f49749cf96b.bindPopup(popup_b40cca8671c9ad9b4f160cd00dea577b)
+        ;
+
+        
+    
+    
+            var circle_marker_3a39ad40836d3234cfb9308da63d4050 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c4c3c0e4cbe7cb2b0279fe8cb4c64892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7444c5cbc21abbaaa35f63a726f4aa15 = $(`<div id="html_7444c5cbc21abbaaa35f63a726f4aa15" style="width: 100.0%; height: 100.0%;">Guinea: 400.65 tonnes</div>`)[0];
+                popup_c4c3c0e4cbe7cb2b0279fe8cb4c64892.setContent(html_7444c5cbc21abbaaa35f63a726f4aa15);
+            
+        
+
+        circle_marker_3a39ad40836d3234cfb9308da63d4050.bindPopup(popup_c4c3c0e4cbe7cb2b0279fe8cb4c64892)
+        ;
+
+        
+    
+    
+            var circle_marker_10318fcb4181afe0bb5d41ffb0bbc796 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4e7cfac9a655b3193e3b00fdc8bfdebf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81dbcda007bbeb83c4b2cb1a749ac706 = $(`<div id="html_81dbcda007bbeb83c4b2cb1a749ac706" style="width: 100.0%; height: 100.0%;">Guinea-Bissau: 82.0 tonnes</div>`)[0];
+                popup_4e7cfac9a655b3193e3b00fdc8bfdebf.setContent(html_81dbcda007bbeb83c4b2cb1a749ac706);
+            
+        
+
+        circle_marker_10318fcb4181afe0bb5d41ffb0bbc796.bindPopup(popup_4e7cfac9a655b3193e3b00fdc8bfdebf)
+        ;
+
+        
+    
+    
+            var circle_marker_829445eb5cf317f7b7e870b66d74c2c3 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9787d6abe2c5ccda0585b295d51ca1e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb88912754e964e84bba2bbfbeba6268 = $(`<div id="html_eb88912754e964e84bba2bbfbeba6268" style="width: 100.0%; height: 100.0%;">Guyana: 358.72 tonnes</div>`)[0];
+                popup_9787d6abe2c5ccda0585b295d51ca1e7.setContent(html_eb88912754e964e84bba2bbfbeba6268);
+            
+        
+
+        circle_marker_829445eb5cf317f7b7e870b66d74c2c3.bindPopup(popup_9787d6abe2c5ccda0585b295d51ca1e7)
+        ;
+
+        
+    
+    
+            var circle_marker_17a3aa65a682a7c7c44b43ad7565a0a4 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_79b800dd112e519264ead866fb8793ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdd15002d4b4a011cd1e6051a904960f = $(`<div id="html_bdd15002d4b4a011cd1e6051a904960f" style="width: 100.0%; height: 100.0%;">Haiti: 27.85 tonnes</div>`)[0];
+                popup_79b800dd112e519264ead866fb8793ae.setContent(html_bdd15002d4b4a011cd1e6051a904960f);
+            
+        
+
+        circle_marker_17a3aa65a682a7c7c44b43ad7565a0a4.bindPopup(popup_79b800dd112e519264ead866fb8793ae)
+        ;
+
+        
+    
+    
+            var circle_marker_eb0e16cf8952301108caebfe84079fcd = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_8560f161d46ebeba63973fb2eff55236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4b7630e0681da3b4a45792f290c2f7b = $(`<div id="html_d4b7630e0681da3b4a45792f290c2f7b" style="width: 100.0%; height: 100.0%;">Honduras: 7194.91 tonnes</div>`)[0];
+                popup_8560f161d46ebeba63973fb2eff55236.setContent(html_d4b7630e0681da3b4a45792f290c2f7b);
+            
+        
+
+        circle_marker_eb0e16cf8952301108caebfe84079fcd.bindPopup(popup_8560f161d46ebeba63973fb2eff55236)
+        ;
+
+        
+    
+    
+            var circle_marker_f6d9c44025577e6070805e2d42665e2b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_02004289b96663e2d51805bd056075ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01afe02d26685d6f3230da0157baf479 = $(`<div id="html_01afe02d26685d6f3230da0157baf479" style="width: 100.0%; height: 100.0%;">Hungary: 9762.9 tonnes</div>`)[0];
+                popup_02004289b96663e2d51805bd056075ea.setContent(html_01afe02d26685d6f3230da0157baf479);
+            
+        
+
+        circle_marker_f6d9c44025577e6070805e2d42665e2b.bindPopup(popup_02004289b96663e2d51805bd056075ea)
+        ;
+
+        
+    
+    
+            var circle_marker_7e20b55349043bc94c55200558d27c0b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0a2d1c8df8eec0f86a70fedb7f2e6391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22d9c4e27398842786d45a959718e807 = $(`<div id="html_22d9c4e27398842786d45a959718e807" style="width: 100.0%; height: 100.0%;">Iceland: 3.67 tonnes</div>`)[0];
+                popup_0a2d1c8df8eec0f86a70fedb7f2e6391.setContent(html_22d9c4e27398842786d45a959718e807);
+            
+        
+
+        circle_marker_7e20b55349043bc94c55200558d27c0b.bindPopup(popup_0a2d1c8df8eec0f86a70fedb7f2e6391)
+        ;
+
+        
+    
+    
+            var circle_marker_6acdd77cc148787c239978a0ffc51bca = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_fa2113206ce63409d364ab8a25df74f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9642bed83e81803ea26b141000cf65d = $(`<div id="html_a9642bed83e81803ea26b141000cf65d" style="width: 100.0%; height: 100.0%;">India: 50410.0 tonnes</div>`)[0];
+                popup_fa2113206ce63409d364ab8a25df74f5.setContent(html_a9642bed83e81803ea26b141000cf65d);
+            
+        
+
+        circle_marker_6acdd77cc148787c239978a0ffc51bca.bindPopup(popup_fa2113206ce63409d364ab8a25df74f5)
+        ;
+
+        
+    
+    
+            var circle_marker_d93a4d7cddb0c98a1a0f3ddc6a43d1e1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_3b6639331676b4ee45bfeb58b2120147 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a8d17ce56577a07a0132d13ddd972ef = $(`<div id="html_8a8d17ce56577a07a0132d13ddd972ef" style="width: 100.0%; height: 100.0%;">Indonesia: 1597.0 tonnes</div>`)[0];
+                popup_3b6639331676b4ee45bfeb58b2120147.setContent(html_8a8d17ce56577a07a0132d13ddd972ef);
+            
+        
+
+        circle_marker_d93a4d7cddb0c98a1a0f3ddc6a43d1e1.bindPopup(popup_3b6639331676b4ee45bfeb58b2120147)
+        ;
+
+        
+    
+    
+            var circle_marker_424eeb61dfa8ff60cbbd06a46446c6b8 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_12ab5c8f15dec4dd265200b8f6dbed5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3657e288bada1621d202e97538a8a738 = $(`<div id="html_3657e288bada1621d202e97538a8a738" style="width: 100.0%; height: 100.0%;">Iran (Islamic Republic of): 2681.32 tonnes</div>`)[0];
+                popup_12ab5c8f15dec4dd265200b8f6dbed5a.setContent(html_3657e288bada1621d202e97538a8a738);
+            
+        
+
+        circle_marker_424eeb61dfa8ff60cbbd06a46446c6b8.bindPopup(popup_12ab5c8f15dec4dd265200b8f6dbed5a)
+        ;
+
+        
+    
+    
+            var circle_marker_4f0d27434f946d77b7b80ae750ba22ec = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4f20dd22602d7d5a2f5280126bef0b58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db69d4b389ee5ecaddbd8296cf83aa99 = $(`<div id="html_db69d4b389ee5ecaddbd8296cf83aa99" style="width: 100.0%; height: 100.0%;">Iraq: 2162.6 tonnes</div>`)[0];
+                popup_4f20dd22602d7d5a2f5280126bef0b58.setContent(html_db69d4b389ee5ecaddbd8296cf83aa99);
+            
+        
+
+        circle_marker_4f0d27434f946d77b7b80ae750ba22ec.bindPopup(popup_4f20dd22602d7d5a2f5280126bef0b58)
+        ;
+
+        
+    
+    
+            var circle_marker_67a775f2346df2c84be101fbe6bcf087 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_241b1880af3dbe3064a1bc0dfdfad43b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_094226a4a24564439839829652184ed7 = $(`<div id="html_094226a4a24564439839829652184ed7" style="width: 100.0%; height: 100.0%;">Ireland: 2583.13 tonnes</div>`)[0];
+                popup_241b1880af3dbe3064a1bc0dfdfad43b.setContent(html_094226a4a24564439839829652184ed7);
+            
+        
+
+        circle_marker_67a775f2346df2c84be101fbe6bcf087.bindPopup(popup_241b1880af3dbe3064a1bc0dfdfad43b)
+        ;
+
+        
+    
+    
+            var circle_marker_805e03c8a61c85297f82b295e5a59f79 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0a186e1d05f5a95aa1cfe313884aae28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb5b237c36d2a944b4e3c200fb5659a9 = $(`<div id="html_bb5b237c36d2a944b4e3c200fb5659a9" style="width: 100.0%; height: 100.0%;">Israel: 6054.9 tonnes</div>`)[0];
+                popup_0a186e1d05f5a95aa1cfe313884aae28.setContent(html_bb5b237c36d2a944b4e3c200fb5659a9);
+            
+        
+
+        circle_marker_805e03c8a61c85297f82b295e5a59f79.bindPopup(popup_0a186e1d05f5a95aa1cfe313884aae28)
+        ;
+
+        
+    
+    
+            var circle_marker_aea107dec6521ed2452285bfe5fae7e6 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_186aaa814560dbbd9016c80171cf5d40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7785c5f48387590f1f50303831965de = $(`<div id="html_a7785c5f48387590f1f50303831965de" style="width: 100.0%; height: 100.0%;">Italy: 60259.0 tonnes</div>`)[0];
+                popup_186aaa814560dbbd9016c80171cf5d40.setContent(html_a7785c5f48387590f1f50303831965de);
+            
+        
+
+        circle_marker_aea107dec6521ed2452285bfe5fae7e6.bindPopup(popup_186aaa814560dbbd9016c80171cf5d40)
+        ;
+
+        
+    
+    
+            var circle_marker_b3dd70e3d821d797e522de8584746e9b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_56b9f9e64c264d75addb361ec25b82e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3467833df5a90011062356ff4c5e59a6 = $(`<div id="html_3467833df5a90011062356ff4c5e59a6" style="width: 100.0%; height: 100.0%;">Jamaica: 909.71 tonnes</div>`)[0];
+                popup_56b9f9e64c264d75addb361ec25b82e7.setContent(html_3467833df5a90011062356ff4c5e59a6);
+            
+        
+
+        circle_marker_b3dd70e3d821d797e522de8584746e9b.bindPopup(popup_56b9f9e64c264d75addb361ec25b82e7)
+        ;
+
+        
+    
+    
+            var circle_marker_81607dc6b82f0ed2ef33515ebef3cf69 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_cc28624651ca8b63475c50be2a69ef0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67cfdb6ab4c73c75256a66362890fdc1 = $(`<div id="html_67cfdb6ab4c73c75256a66362890fdc1" style="width: 100.0%; height: 100.0%;">Japan: 51006.46 tonnes</div>`)[0];
+                popup_cc28624651ca8b63475c50be2a69ef0d.setContent(html_67cfdb6ab4c73c75256a66362890fdc1);
+            
+        
+
+        circle_marker_81607dc6b82f0ed2ef33515ebef3cf69.bindPopup(popup_cc28624651ca8b63475c50be2a69ef0d)
+        ;
+
+        
+    
+    
+            var circle_marker_26dd36b73a1561b86dfe52cd92861868 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a3d7c90c561f13be97c411d7c22a90cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb2abcb5cf2ada5d9d9366f62084ac71 = $(`<div id="html_bb2abcb5cf2ada5d9d9366f62084ac71" style="width: 100.0%; height: 100.0%;">Jordan: 1020.0 tonnes</div>`)[0];
+                popup_a3d7c90c561f13be97c411d7c22a90cd.setContent(html_bb2abcb5cf2ada5d9d9366f62084ac71);
+            
+        
+
+        circle_marker_26dd36b73a1561b86dfe52cd92861868.bindPopup(popup_a3d7c90c561f13be97c411d7c22a90cd)
+        ;
+
+        
+    
+    
+            var circle_marker_300d0f797d29d4bc3849f5c857d8e2fc = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_5a64a1b6ae8b7fb7445d4ee5b85339ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1a9ab6468b162e6384279151ef7f7e5 = $(`<div id="html_d1a9ab6468b162e6384279151ef7f7e5" style="width: 100.0%; height: 100.0%;">Kazakhstan: 10612.4 tonnes</div>`)[0];
+                popup_5a64a1b6ae8b7fb7445d4ee5b85339ed.setContent(html_d1a9ab6468b162e6384279151ef7f7e5);
+            
+        
+
+        circle_marker_300d0f797d29d4bc3849f5c857d8e2fc.bindPopup(popup_5a64a1b6ae8b7fb7445d4ee5b85339ed)
+        ;
+
+        
+    
+    
+            var circle_marker_01fd8279c6878fc800d22ef38a4316ee = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_b32e5cbe405552a61aa0a3961b7f617f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b8dc92c57edc4818983ccff2717f5be = $(`<div id="html_1b8dc92c57edc4818983ccff2717f5be" style="width: 100.0%; height: 100.0%;">Kenya: 1578.0 tonnes</div>`)[0];
+                popup_b32e5cbe405552a61aa0a3961b7f617f.setContent(html_1b8dc92c57edc4818983ccff2717f5be);
+            
+        
+
+        circle_marker_01fd8279c6878fc800d22ef38a4316ee.bindPopup(popup_b32e5cbe405552a61aa0a3961b7f617f)
+        ;
+
+        
+    
+    
+            var circle_marker_23ffb2e712a0f8de2f4a087663e68942 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_bd19923e1eae7e3b3266f397aac16752 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1342d309247089d32306f1ee6cb242be = $(`<div id="html_1342d309247089d32306f1ee6cb242be" style="width: 100.0%; height: 100.0%;">Kuwait: 32.0 tonnes</div>`)[0];
+                popup_bd19923e1eae7e3b3266f397aac16752.setContent(html_1342d309247089d32306f1ee6cb242be);
+            
+        
+
+        circle_marker_23ffb2e712a0f8de2f4a087663e68942.bindPopup(popup_bd19923e1eae7e3b3266f397aac16752)
+        ;
+
+        
+    
+    
+            var circle_marker_6e3c19177c1064c4f5d08a2156ea99d2 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_6a1d08e563ee648928f0b2812874c7fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa21eed8feebece975c1aba375901dbe = $(`<div id="html_fa21eed8feebece975c1aba375901dbe" style="width: 100.0%; height: 100.0%;">Kyrgyzstan: 532.8 tonnes</div>`)[0];
+                popup_6a1d08e563ee648928f0b2812874c7fe.setContent(html_fa21eed8feebece975c1aba375901dbe);
+            
+        
+
+        circle_marker_6e3c19177c1064c4f5d08a2156ea99d2.bindPopup(popup_6a1d08e563ee648928f0b2812874c7fe)
+        ;
+
+        
+    
+    
+            var circle_marker_77adda0cf08755ac2eaa69ef38a825b9 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_e204fe5e91549dac70ad91b34e4980f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1efec7b8e43d4c1c25d8bd5cdc64ba78 = $(`<div id="html_1efec7b8e43d4c1c25d8bd5cdc64ba78" style="width: 100.0%; height: 100.0%;">Lao People's Democratic Republic: 3.0 tonnes</div>`)[0];
+                popup_e204fe5e91549dac70ad91b34e4980f6.setContent(html_1efec7b8e43d4c1c25d8bd5cdc64ba78);
+            
+        
+
+        circle_marker_77adda0cf08755ac2eaa69ef38a825b9.bindPopup(popup_e204fe5e91549dac70ad91b34e4980f6)
+        ;
+
+        
+    
+    
+            var circle_marker_e08c0f6a7c92b3180ca494dafb794c8a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_532edb172856b6c02f2c275022f59688 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b5a7fcc481657383840f2f2e911e77f = $(`<div id="html_7b5a7fcc481657383840f2f2e911e77f" style="width: 100.0%; height: 100.0%;">Latvia: 1724.7 tonnes</div>`)[0];
+                popup_532edb172856b6c02f2c275022f59688.setContent(html_7b5a7fcc481657383840f2f2e911e77f);
+            
+        
+
+        circle_marker_e08c0f6a7c92b3180ca494dafb794c8a.bindPopup(popup_532edb172856b6c02f2c275022f59688)
+        ;
+
+        
+    
+    
+            var circle_marker_32b117d8a4a9c7b05a4fa258a47dccd0 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4068cdae60700547393f280ea81cd6bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78604581c129ad1227f4d800aa644d88 = $(`<div id="html_78604581c129ad1227f4d800aa644d88" style="width: 100.0%; height: 100.0%;">Lebanon: 1816.0 tonnes</div>`)[0];
+                popup_4068cdae60700547393f280ea81cd6bb.setContent(html_78604581c129ad1227f4d800aa644d88);
+            
+        
+
+        circle_marker_32b117d8a4a9c7b05a4fa258a47dccd0.bindPopup(popup_4068cdae60700547393f280ea81cd6bb)
+        ;
+
+        
+    
+    
+            var circle_marker_50930787337adf56cc92558721f8c922 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_bdae7d11a0f0fe123e3286a8e57a5cf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e32a3a7b1a735eb655bbd42d5f52a50e = $(`<div id="html_e32a3a7b1a735eb655bbd42d5f52a50e" style="width: 100.0%; height: 100.0%;">Lesotho: 62.32 tonnes</div>`)[0];
+                popup_bdae7d11a0f0fe123e3286a8e57a5cf8.setContent(html_e32a3a7b1a735eb655bbd42d5f52a50e);
+            
+        
+
+        circle_marker_50930787337adf56cc92558721f8c922.bindPopup(popup_bdae7d11a0f0fe123e3286a8e57a5cf8)
+        ;
+
+        
+    
+    
+            var circle_marker_e3278fed103c28a7858bc4d28ed8d07a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f62b2f4123a337bf9760738fc17eb72d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8040269babea172d76206618606989f2 = $(`<div id="html_8040269babea172d76206618606989f2" style="width: 100.0%; height: 100.0%;">Libya: 3548.0 tonnes</div>`)[0];
+                popup_f62b2f4123a337bf9760738fc17eb72d.setContent(html_8040269babea172d76206618606989f2);
+            
+        
+
+        circle_marker_e3278fed103c28a7858bc4d28ed8d07a.bindPopup(popup_f62b2f4123a337bf9760738fc17eb72d)
+        ;
+
+        
+    
+    
+            var circle_marker_b8e018c54cf55f7785ecf38be9ea3643 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_23d7dfc4376dfda64aba75e3fa45a8bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_763d27de5011bc8c995c9e63a5da2264 = $(`<div id="html_763d27de5011bc8c995c9e63a5da2264" style="width: 100.0%; height: 100.0%;">Lithuania: 3336.1 tonnes</div>`)[0];
+                popup_23d7dfc4376dfda64aba75e3fa45a8bf.setContent(html_763d27de5011bc8c995c9e63a5da2264);
+            
+        
+
+        circle_marker_b8e018c54cf55f7785ecf38be9ea3643.bindPopup(popup_23d7dfc4376dfda64aba75e3fa45a8bf)
+        ;
+
+        
+    
+    
+            var circle_marker_890ec638cf0736fd0f8d078aff82c4ae = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0b4148d22c5020fce66c2e05355cac93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b65d22e55edd29a8fb3a8a37a9d45b3 = $(`<div id="html_8b65d22e55edd29a8fb3a8a37a9d45b3" style="width: 100.0%; height: 100.0%;">Luxembourg: 130.32 tonnes</div>`)[0];
+                popup_0b4148d22c5020fce66c2e05355cac93.setContent(html_8b65d22e55edd29a8fb3a8a37a9d45b3);
+            
+        
+
+        circle_marker_890ec638cf0736fd0f8d078aff82c4ae.bindPopup(popup_0b4148d22c5020fce66c2e05355cac93)
+        ;
+
+        
+    
+    
+            var circle_marker_6234c388d380eb030e6e555a93b4eab2 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_fd4d2174de64b765616be51522e5370f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b33a83878575b1b79c003cf3c6ed6d3 = $(`<div id="html_6b33a83878575b1b79c003cf3c6ed6d3" style="width: 100.0%; height: 100.0%;">Madagascar: 493.54 tonnes</div>`)[0];
+                popup_fd4d2174de64b765616be51522e5370f.setContent(html_6b33a83878575b1b79c003cf3c6ed6d3);
+            
+        
+
+        circle_marker_6234c388d380eb030e6e555a93b4eab2.bindPopup(popup_fd4d2174de64b765616be51522e5370f)
+        ;
+
+        
+    
+    
+            var circle_marker_f07c88a83492ecb8fc71da4cc09e6c75 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_fce4da8488b6da41dd27ccd25953b5bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97a2fc71846b35c26604775acbf657e2 = $(`<div id="html_97a2fc71846b35c26604775acbf657e2" style="width: 100.0%; height: 100.0%;">Malawi: 2358.01 tonnes</div>`)[0];
+                popup_fce4da8488b6da41dd27ccd25953b5bf.setContent(html_97a2fc71846b35c26604775acbf657e2);
+            
+        
+
+        circle_marker_f07c88a83492ecb8fc71da4cc09e6c75.bindPopup(popup_fce4da8488b6da41dd27ccd25953b5bf)
+        ;
+
+        
+    
+    
+            var circle_marker_e4c96612817494bc5c4494d5d0363a3a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c10d74b6ce8d2aadb7597bc809bf648c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82104f34d31a69aba5a43809229f1a74 = $(`<div id="html_82104f34d31a69aba5a43809229f1a74" style="width: 100.0%; height: 100.0%;">Malaysia: 49199.43 tonnes</div>`)[0];
+                popup_c10d74b6ce8d2aadb7597bc809bf648c.setContent(html_82104f34d31a69aba5a43809229f1a74);
+            
+        
+
+        circle_marker_e4c96612817494bc5c4494d5d0363a3a.bindPopup(popup_c10d74b6ce8d2aadb7597bc809bf648c)
+        ;
+
+        
+    
+    
+            var circle_marker_eccea885d76ae96a4c5b3aaa4838902a = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_6128adb988c4e3961d8b58b98b35266d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fa81a039cb33642ae046e30c9643ae4 = $(`<div id="html_0fa81a039cb33642ae046e30c9643ae4" style="width: 100.0%; height: 100.0%;">Maldives: 363.26 tonnes</div>`)[0];
+                popup_6128adb988c4e3961d8b58b98b35266d.setContent(html_0fa81a039cb33642ae046e30c9643ae4);
+            
+        
+
+        circle_marker_eccea885d76ae96a4c5b3aaa4838902a.bindPopup(popup_6128adb988c4e3961d8b58b98b35266d)
+        ;
+
+        
+    
+    
+            var circle_marker_423d6b0f708a678104c36a344dc82944 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_5d4aac8f218458b3adea5b65f7ef5817 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_463906ef52823d54364f658ebbc93ecf = $(`<div id="html_463906ef52823d54364f658ebbc93ecf" style="width: 100.0%; height: 100.0%;">Mali: 1.52 tonnes</div>`)[0];
+                popup_5d4aac8f218458b3adea5b65f7ef5817.setContent(html_463906ef52823d54364f658ebbc93ecf);
+            
+        
+
+        circle_marker_423d6b0f708a678104c36a344dc82944.bindPopup(popup_5d4aac8f218458b3adea5b65f7ef5817)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4306d4e42a4afa8d6e3c179a414c08 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_5bd9f456625ad78d432c0d4ca569d432 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1e80ae1e0ce4680deb260ad9861a16b = $(`<div id="html_e1e80ae1e0ce4680deb260ad9861a16b" style="width: 100.0%; height: 100.0%;">Malta: 125.0 tonnes</div>`)[0];
+                popup_5bd9f456625ad78d432c0d4ca569d432.setContent(html_e1e80ae1e0ce4680deb260ad9861a16b);
+            
+        
+
+        circle_marker_4f4306d4e42a4afa8d6e3c179a414c08.bindPopup(popup_5bd9f456625ad78d432c0d4ca569d432)
+        ;
+
+        
+    
+    
+            var circle_marker_1a32b91ec86e981fbc945384c4d60bfa = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f8439a7fa8784e1921fbad3c7cd6a5dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7c0b3eb5fb6e932ec08f788a003bb47 = $(`<div id="html_d7c0b3eb5fb6e932ec08f788a003bb47" style="width: 100.0%; height: 100.0%;">Mauritania: 26.41 tonnes</div>`)[0];
+                popup_f8439a7fa8784e1921fbad3c7cd6a5dc.setContent(html_d7c0b3eb5fb6e932ec08f788a003bb47);
+            
+        
+
+        circle_marker_1a32b91ec86e981fbc945384c4d60bfa.bindPopup(popup_f8439a7fa8784e1921fbad3c7cd6a5dc)
+        ;
+
+        
+    
+    
+            var circle_marker_83eb56a7486946859824578250e66ddf = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_5b9a86a070e7b417946ac1f5bbadf189 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34b331de3c3647a91afb6c2646789605 = $(`<div id="html_34b331de3c3647a91afb6c2646789605" style="width: 100.0%; height: 100.0%;">Mauritius: 664.2 tonnes</div>`)[0];
+                popup_5b9a86a070e7b417946ac1f5bbadf189.setContent(html_34b331de3c3647a91afb6c2646789605);
+            
+        
+
+        circle_marker_83eb56a7486946859824578250e66ddf.bindPopup(popup_5b9a86a070e7b417946ac1f5bbadf189)
+        ;
+
+        
+    
+    
+            var circle_marker_28cb2621f3aa467555484373b8c3a4aa = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_14a8a8f208707b42059338a5910eda21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b203d72187593ac138eb0c336a141680 = $(`<div id="html_b203d72187593ac138eb0c336a141680" style="width: 100.0%; height: 100.0%;">Mexico: 57110.63 tonnes</div>`)[0];
+                popup_14a8a8f208707b42059338a5910eda21.setContent(html_b203d72187593ac138eb0c336a141680);
+            
+        
+
+        circle_marker_28cb2621f3aa467555484373b8c3a4aa.bindPopup(popup_14a8a8f208707b42059338a5910eda21)
+        ;
+
+        
+    
+    
+            var circle_marker_0149a616e14b885f80a20f3b849bb97d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_2c61e99b4a9c5e7a47052c2121490abf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e459c4df4a2afbd4a6ea4857df241713 = $(`<div id="html_e459c4df4a2afbd4a6ea4857df241713" style="width: 100.0%; height: 100.0%;">Montenegro: 90.0 tonnes</div>`)[0];
+                popup_2c61e99b4a9c5e7a47052c2121490abf.setContent(html_e459c4df4a2afbd4a6ea4857df241713);
+            
+        
+
+        circle_marker_0149a616e14b885f80a20f3b849bb97d.bindPopup(popup_2c61e99b4a9c5e7a47052c2121490abf)
+        ;
+
+        
+    
+    
+            var circle_marker_2a8859c808d493c7e96ca1d7b61b2cf2 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_3d8dfb521060841b85524d0606713086 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ba2341291cbe099d996dd2eb5a4f518 = $(`<div id="html_5ba2341291cbe099d996dd2eb5a4f518" style="width: 100.0%; height: 100.0%;">Morocco: 13697.0 tonnes</div>`)[0];
+                popup_3d8dfb521060841b85524d0606713086.setContent(html_5ba2341291cbe099d996dd2eb5a4f518);
+            
+        
+
+        circle_marker_2a8859c808d493c7e96ca1d7b61b2cf2.bindPopup(popup_3d8dfb521060841b85524d0606713086)
+        ;
+
+        
+    
+    
+            var circle_marker_b6298f45fa2ab33894d5edf41feb6663 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9e85e19017c8da30255417d7aad61f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f53580b2ba29cec2bf2211ba2da035bc = $(`<div id="html_f53580b2ba29cec2bf2211ba2da035bc" style="width: 100.0%; height: 100.0%;">Mozambique: 766.93 tonnes</div>`)[0];
+                popup_9e85e19017c8da30255417d7aad61f33.setContent(html_f53580b2ba29cec2bf2211ba2da035bc);
+            
+        
+
+        circle_marker_b6298f45fa2ab33894d5edf41feb6663.bindPopup(popup_9e85e19017c8da30255417d7aad61f33)
+        ;
+
+        
+    
+    
+            var circle_marker_0c4a7149fa31308881a014bce89677e3 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9236e07690119a091cd56407a5a40c45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd71d6d03822fcb1b4cccae3007d0ec1 = $(`<div id="html_fd71d6d03822fcb1b4cccae3007d0ec1" style="width: 100.0%; height: 100.0%;">Myanmar: 12091.56 tonnes</div>`)[0];
+                popup_9236e07690119a091cd56407a5a40c45.setContent(html_fd71d6d03822fcb1b4cccae3007d0ec1);
+            
+        
+
+        circle_marker_0c4a7149fa31308881a014bce89677e3.bindPopup(popup_9236e07690119a091cd56407a5a40c45)
+        ;
+
+        
+    
+    
+            var circle_marker_e5c73058ee88f17b99bea8b55f2361ab = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4c00de5799d90438d4653b4eaadb7359 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b643cb23c75e4e3656a6ab5010cfb42 = $(`<div id="html_3b643cb23c75e4e3656a6ab5010cfb42" style="width: 100.0%; height: 100.0%;">Namibia: 56.0 tonnes</div>`)[0];
+                popup_4c00de5799d90438d4653b4eaadb7359.setContent(html_3b643cb23c75e4e3656a6ab5010cfb42);
+            
+        
+
+        circle_marker_e5c73058ee88f17b99bea8b55f2361ab.bindPopup(popup_4c00de5799d90438d4653b4eaadb7359)
+        ;
+
+        
+    
+    
+            var circle_marker_7a0987b7545c52cd7984093b72ceeb02 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_834892f6a18d4a2d48b2bca59b81aa43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ed48f602038efcbd24286931fcb3ded = $(`<div id="html_4ed48f602038efcbd24286931fcb3ded" style="width: 100.0%; height: 100.0%;">Nepal: 573.97 tonnes</div>`)[0];
+                popup_834892f6a18d4a2d48b2bca59b81aa43.setContent(html_4ed48f602038efcbd24286931fcb3ded);
+            
+        
+
+        circle_marker_7a0987b7545c52cd7984093b72ceeb02.bindPopup(popup_834892f6a18d4a2d48b2bca59b81aa43)
+        ;
+
+        
+    
+    
+            var circle_marker_1fa876e163df8283729f501e4f6f321d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_127c1693de9bdcbabcb112470447925b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69702f63294109ed106684267150f4d3 = $(`<div id="html_69702f63294109ed106684267150f4d3" style="width: 100.0%; height: 100.0%;">Netherlands: 9999.3 tonnes</div>`)[0];
+                popup_127c1693de9bdcbabcb112470447925b.setContent(html_69702f63294109ed106684267150f4d3);
+            
+        
+
+        circle_marker_1fa876e163df8283729f501e4f6f321d.bindPopup(popup_127c1693de9bdcbabcb112470447925b)
+        ;
+
+        
+    
+    
+            var circle_marker_4239bcb7f2397221a3309f1645371376 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_200ba409b9326797e24edb28cf84f6be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0154f289b9677fb54e0bc45e1ad7c6c3 = $(`<div id="html_0154f289b9677fb54e0bc45e1ad7c6c3" style="width: 100.0%; height: 100.0%;">New Caledonia: 25.33 tonnes</div>`)[0];
+                popup_200ba409b9326797e24edb28cf84f6be.setContent(html_0154f289b9677fb54e0bc45e1ad7c6c3);
+            
+        
+
+        circle_marker_4239bcb7f2397221a3309f1645371376.bindPopup(popup_200ba409b9326797e24edb28cf84f6be)
+        ;
+
+        
+    
+    
+            var circle_marker_df9d701f77d241c3a1e31f60c24049b2 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_06d290584d132a480f071612be80d6f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ecb6f2744b1cb29c8d1c2bed0b7fb0e = $(`<div id="html_5ecb6f2744b1cb29c8d1c2bed0b7fb0e" style="width: 100.0%; height: 100.0%;">New Zealand: 5086.0 tonnes</div>`)[0];
+                popup_06d290584d132a480f071612be80d6f9.setContent(html_5ecb6f2744b1cb29c8d1c2bed0b7fb0e);
+            
+        
+
+        circle_marker_df9d701f77d241c3a1e31f60c24049b2.bindPopup(popup_06d290584d132a480f071612be80d6f9)
+        ;
+
+        
+    
+    
+            var circle_marker_e53ddbc0dce90329a0ffa9bf7b2446cf = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_24e499660556c8d7af1d28aaec71cd07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32772d01194fd7c636cb7fd5fede6786 = $(`<div id="html_32772d01194fd7c636cb7fd5fede6786" style="width: 100.0%; height: 100.0%;">Nicaragua: 4413.82 tonnes</div>`)[0];
+                popup_24e499660556c8d7af1d28aaec71cd07.setContent(html_32772d01194fd7c636cb7fd5fede6786);
+            
+        
+
+        circle_marker_e53ddbc0dce90329a0ffa9bf7b2446cf.bindPopup(popup_24e499660556c8d7af1d28aaec71cd07)
+        ;
+
+        
+    
+    
+            var circle_marker_cff8bedb8fdf20cdfe0f570d8d45c8e7 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_e979f5636aa5fc567f8b9fbe54f2a9ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3540eb9f8c70b7ea25420ff5f58c3c6c = $(`<div id="html_3540eb9f8c70b7ea25420ff5f58c3c6c" style="width: 100.0%; height: 100.0%;">Niger: 21.37 tonnes</div>`)[0];
+                popup_e979f5636aa5fc567f8b9fbe54f2a9ac.setContent(html_3540eb9f8c70b7ea25420ff5f58c3c6c);
+            
+        
+
+        circle_marker_cff8bedb8fdf20cdfe0f570d8d45c8e7.bindPopup(popup_e979f5636aa5fc567f8b9fbe54f2a9ac)
+        ;
+
+        
+    
+    
+            var circle_marker_33cb3ecfc68242d1fa4096b5a0eefef7 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a8dc17e0a6cd75637dbde7b62e7c5cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d476163cdb80b76c6f9554f9096b3ea = $(`<div id="html_8d476163cdb80b76c6f9554f9096b3ea" style="width: 100.0%; height: 100.0%;">Norway: 677.27 tonnes</div>`)[0];
+                popup_a8dc17e0a6cd75637dbde7b62e7c5cab.setContent(html_8d476163cdb80b76c6f9554f9096b3ea);
+            
+        
+
+        circle_marker_33cb3ecfc68242d1fa4096b5a0eefef7.bindPopup(popup_a8dc17e0a6cd75637dbde7b62e7c5cab)
+        ;
+
+        
+    
+    
+            var circle_marker_52f9f44a57648826e764f09736df934b = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4a72ec81fca218a5c3b03ab566ae7fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a687fe24d56251aa892506914fb07049 = $(`<div id="html_a687fe24d56251aa892506914fb07049" style="width: 100.0%; height: 100.0%;">Occupied Palestinian Territory: 1645.42 tonnes</div>`)[0];
+                popup_4a72ec81fca218a5c3b03ab566ae7fb8.setContent(html_a687fe24d56251aa892506914fb07049);
+            
+        
+
+        circle_marker_52f9f44a57648826e764f09736df934b.bindPopup(popup_4a72ec81fca218a5c3b03ab566ae7fb8)
+        ;
+
+        
+    
+    
+            var circle_marker_1a708207b6385925c82d6e5596e7702e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_471f4511d7e9cc365c7d8eb8c04f547b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_498c1699e3e5f64ad80ba60c3821eef2 = $(`<div id="html_498c1699e3e5f64ad80ba60c3821eef2" style="width: 100.0%; height: 100.0%;">Oman: 248.34 tonnes</div>`)[0];
+                popup_471f4511d7e9cc365c7d8eb8c04f547b.setContent(html_498c1699e3e5f64ad80ba60c3821eef2);
+            
+        
+
+        circle_marker_1a708207b6385925c82d6e5596e7702e.bindPopup(popup_471f4511d7e9cc365c7d8eb8c04f547b)
+        ;
+
+        
+    
+    
+            var circle_marker_30d04f27ef95c19bdceefbacdecf4f1e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_6aba242eb006ea3f50a1f9c8deb23250 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8338bbff0b7271edeb593bf8b9067d60 = $(`<div id="html_8338bbff0b7271edeb593bf8b9067d60" style="width: 100.0%; height: 100.0%;">Pakistan: 0.92 tonnes</div>`)[0];
+                popup_6aba242eb006ea3f50a1f9c8deb23250.setContent(html_8338bbff0b7271edeb593bf8b9067d60);
+            
+        
+
+        circle_marker_30d04f27ef95c19bdceefbacdecf4f1e.bindPopup(popup_6aba242eb006ea3f50a1f9c8deb23250)
+        ;
+
+        
+    
+    
+            var circle_marker_d898555fb69fd7ec0aaec49ec33fb0d4 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_632d2e1966c8b142c3d44f7bc94aab25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffaa7e1620880c7a4d85141f9600651d = $(`<div id="html_ffaa7e1620880c7a4d85141f9600651d" style="width: 100.0%; height: 100.0%;">Panama: 2477.29 tonnes</div>`)[0];
+                popup_632d2e1966c8b142c3d44f7bc94aab25.setContent(html_ffaa7e1620880c7a4d85141f9600651d);
+            
+        
+
+        circle_marker_d898555fb69fd7ec0aaec49ec33fb0d4.bindPopup(popup_632d2e1966c8b142c3d44f7bc94aab25)
+        ;
+
+        
+    
+    
+            var circle_marker_142fe6b627e07970f9d924a49334af95 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_46e23ba942240db6874c4039c3c223a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02fbde5fa961bcf56424db3749247b5f = $(`<div id="html_02fbde5fa961bcf56424db3749247b5f" style="width: 100.0%; height: 100.0%;">Papua New Guinea: 105.0 tonnes</div>`)[0];
+                popup_46e23ba942240db6874c4039c3c223a9.setContent(html_02fbde5fa961bcf56424db3749247b5f);
+            
+        
+
+        circle_marker_142fe6b627e07970f9d924a49334af95.bindPopup(popup_46e23ba942240db6874c4039c3c223a9)
+        ;
+
+        
+    
+    
+            var circle_marker_c5ef0d8324f944645d98f8c8555ade9d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9a431c4b6d6ab2bfcc6e37c7f1d5d6a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f98a13e2d9dd8e9ae00dd12d0878997 = $(`<div id="html_1f98a13e2d9dd8e9ae00dd12d0878997" style="width: 100.0%; height: 100.0%;">Paraguay: 27228.5 tonnes</div>`)[0];
+                popup_9a431c4b6d6ab2bfcc6e37c7f1d5d6a0.setContent(html_1f98a13e2d9dd8e9ae00dd12d0878997);
+            
+        
+
+        circle_marker_c5ef0d8324f944645d98f8c8555ade9d.bindPopup(popup_9a431c4b6d6ab2bfcc6e37c7f1d5d6a0)
+        ;
+
+        
+    
+    
+            var circle_marker_11e47d234df4355511bd2ea7999c9b25 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9e61091d454091b7a7636d00c68d20a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f63b7a673c76702ce0e430bf1ee9538 = $(`<div id="html_6f63b7a673c76702ce0e430bf1ee9538" style="width: 100.0%; height: 100.0%;">Peru: 26036.3 tonnes</div>`)[0];
+                popup_9e61091d454091b7a7636d00c68d20a0.setContent(html_6f63b7a673c76702ce0e430bf1ee9538);
+            
+        
+
+        circle_marker_11e47d234df4355511bd2ea7999c9b25.bindPopup(popup_9e61091d454091b7a7636d00c68d20a0)
+        ;
+
+        
+    
+    
+            var circle_marker_795aed18ef55ced09450814101f77a71 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_486963c22ef3c2e87ff3d8b31cc6f3eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bece84525bc4bb6147c10df27b4386a = $(`<div id="html_2bece84525bc4bb6147c10df27b4386a" style="width: 100.0%; height: 100.0%;">Poland: 24462.5 tonnes</div>`)[0];
+                popup_486963c22ef3c2e87ff3d8b31cc6f3eb.setContent(html_2bece84525bc4bb6147c10df27b4386a);
+            
+        
+
+        circle_marker_795aed18ef55ced09450814101f77a71.bindPopup(popup_486963c22ef3c2e87ff3d8b31cc6f3eb)
+        ;
+
+        
+    
+    
+            var circle_marker_2c92b93b5b2db572a2ee8061965c79be = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_7ab9db63e02d0525f355db5d6d581cdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e1ba95c6c659f707a93a61af9382b4f = $(`<div id="html_9e1ba95c6c659f707a93a61af9382b4f" style="width: 100.0%; height: 100.0%;">Portugal: 9778.5 tonnes</div>`)[0];
+                popup_7ab9db63e02d0525f355db5d6d581cdf.setContent(html_9e1ba95c6c659f707a93a61af9382b4f);
+            
+        
+
+        circle_marker_2c92b93b5b2db572a2ee8061965c79be.bindPopup(popup_7ab9db63e02d0525f355db5d6d581cdf)
+        ;
+
+        
+    
+    
+            var circle_marker_4633201e09ba3da51d978222fe688f16 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_553d4d3e9fbc756464054923974eadae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4617ebd4946e84193cf35005ac4787a = $(`<div id="html_e4617ebd4946e84193cf35005ac4787a" style="width: 100.0%; height: 100.0%;">Qatar: 68.0 tonnes</div>`)[0];
+                popup_553d4d3e9fbc756464054923974eadae.setContent(html_e4617ebd4946e84193cf35005ac4787a);
+            
+        
+
+        circle_marker_4633201e09ba3da51d978222fe688f16.bindPopup(popup_553d4d3e9fbc756464054923974eadae)
+        ;
+
+        
+    
+    
+            var circle_marker_7d4285ff2a72932aa2cf52e491f4ebcc = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c3ac22d2d98ca9452d99e245523f9557 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_281dea14309fb487be0b636619774992 = $(`<div id="html_281dea14309fb487be0b636619774992" style="width: 100.0%; height: 100.0%;">Republic of Korea: 19798.0 tonnes</div>`)[0];
+                popup_c3ac22d2d98ca9452d99e245523f9557.setContent(html_281dea14309fb487be0b636619774992);
+            
+        
+
+        circle_marker_7d4285ff2a72932aa2cf52e491f4ebcc.bindPopup(popup_c3ac22d2d98ca9452d99e245523f9557)
+        ;
+
+        
+    
+    
+            var circle_marker_d9055a77f538d6872331c7cb13ffa576 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f4a4f5859c360779cec0e39106cf541d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e120efc5e4003987f7f7443a27ef397 = $(`<div id="html_2e120efc5e4003987f7f7443a27ef397" style="width: 100.0%; height: 100.0%;">Republic of Moldova: 3668.0 tonnes</div>`)[0];
+                popup_f4a4f5859c360779cec0e39106cf541d.setContent(html_2e120efc5e4003987f7f7443a27ef397);
+            
+        
+
+        circle_marker_d9055a77f538d6872331c7cb13ffa576.bindPopup(popup_f4a4f5859c360779cec0e39106cf541d)
+        ;
+
+        
+    
+    
+            var circle_marker_14029655871ede76ea52a26319268f5f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_86096f9eee5c4d707b2d016c4a86e2fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ed3c8fdbcc785688404b9669ce6080e = $(`<div id="html_1ed3c8fdbcc785688404b9669ce6080e" style="width: 100.0%; height: 100.0%;">Romania: 6463.17 tonnes</div>`)[0];
+                popup_86096f9eee5c4d707b2d016c4a86e2fc.setContent(html_1ed3c8fdbcc785688404b9669ce6080e);
+            
+        
+
+        circle_marker_14029655871ede76ea52a26319268f5f.bindPopup(popup_86096f9eee5c4d707b2d016c4a86e2fc)
+        ;
+
+        
+    
+    
+            var circle_marker_5a8db9efd3621c32d9ae8b38062de19d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_7a3fedc6a0ab81c710de620d6dc6255d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d509a79b7c372e60aa9f5855dcf3fc90 = $(`<div id="html_d509a79b7c372e60aa9f5855dcf3fc90" style="width: 100.0%; height: 100.0%;">Russian Federation: 25961.0 tonnes</div>`)[0];
+                popup_7a3fedc6a0ab81c710de620d6dc6255d.setContent(html_d509a79b7c372e60aa9f5855dcf3fc90);
+            
+        
+
+        circle_marker_5a8db9efd3621c32d9ae8b38062de19d.bindPopup(popup_7a3fedc6a0ab81c710de620d6dc6255d)
+        ;
+
+        
+    
+    
+            var circle_marker_1f70d569a582fba078bc75d820627e13 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_8fd9e6f8bbd7a7697380f02689eb9017 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8703652b6b26e01f3dc6f0471a6f4154 = $(`<div id="html_8703652b6b26e01f3dc6f0471a6f4154" style="width: 100.0%; height: 100.0%;">Rwanda: 2027.03 tonnes</div>`)[0];
+                popup_8fd9e6f8bbd7a7697380f02689eb9017.setContent(html_8703652b6b26e01f3dc6f0471a6f4154);
+            
+        
+
+        circle_marker_1f70d569a582fba078bc75d820627e13.bindPopup(popup_8fd9e6f8bbd7a7697380f02689eb9017)
+        ;
+
+        
+    
+    
+            var circle_marker_d2c4f2a609d493df07f0b38906fb34d1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_51b9e225a69389c814b98877009c8bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00aa5ec6e7652e7509c3dff63efa28c4 = $(`<div id="html_00aa5ec6e7652e7509c3dff63efa28c4" style="width: 100.0%; height: 100.0%;">Saint Kitts and Nevis: 1.56 tonnes</div>`)[0];
+                popup_51b9e225a69389c814b98877009c8bf2.setContent(html_00aa5ec6e7652e7509c3dff63efa28c4);
+            
+        
+
+        circle_marker_d2c4f2a609d493df07f0b38906fb34d1.bindPopup(popup_51b9e225a69389c814b98877009c8bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_015109ceb24e7c850c98878805a06eab = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a5c5b5016ff0b1bbc2d70f0ef22a9383 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48dc823e2287d5be16b69d1a0bbd3d29 = $(`<div id="html_48dc823e2287d5be16b69d1a0bbd3d29" style="width: 100.0%; height: 100.0%;">Saint Lucia: 196.0 tonnes</div>`)[0];
+                popup_a5c5b5016ff0b1bbc2d70f0ef22a9383.setContent(html_48dc823e2287d5be16b69d1a0bbd3d29);
+            
+        
+
+        circle_marker_015109ceb24e7c850c98878805a06eab.bindPopup(popup_a5c5b5016ff0b1bbc2d70f0ef22a9383)
+        ;
+
+        
+    
+    
+            var circle_marker_b9e2e074d76fedb34915ffa69ea722e6 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f2ee29a1762ac008cd64acb2f2681e5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_001f21f470bbb5bd111cc6fd8bb432f6 = $(`<div id="html_001f21f470bbb5bd111cc6fd8bb432f6" style="width: 100.0%; height: 100.0%;">Samoa: 6.77 tonnes</div>`)[0];
+                popup_f2ee29a1762ac008cd64acb2f2681e5f.setContent(html_001f21f470bbb5bd111cc6fd8bb432f6);
+            
+        
+
+        circle_marker_b9e2e074d76fedb34915ffa69ea722e6.bindPopup(popup_f2ee29a1762ac008cd64acb2f2681e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_d782db9c73eae1f25ab00964f8f40a3c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_536b92ababde27cfd58001bf149bb019 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28a9124860202b0f17d1223365f67ba2 = $(`<div id="html_28a9124860202b0f17d1223365f67ba2" style="width: 100.0%; height: 100.0%;">Saudi Arabia: 5412.5 tonnes</div>`)[0];
+                popup_536b92ababde27cfd58001bf149bb019.setContent(html_28a9124860202b0f17d1223365f67ba2);
+            
+        
+
+        circle_marker_d782db9c73eae1f25ab00964f8f40a3c.bindPopup(popup_536b92ababde27cfd58001bf149bb019)
+        ;
+
+        
+    
+    
+            var circle_marker_ddc20ec1812317f77ec901a50cce30ed = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_20701b71d222e95ecdb36c82b5b94170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03abaa89f871dea7604502811642c4c8 = $(`<div id="html_03abaa89f871dea7604502811642c4c8" style="width: 100.0%; height: 100.0%;">Senegal: 609.79 tonnes</div>`)[0];
+                popup_20701b71d222e95ecdb36c82b5b94170.setContent(html_03abaa89f871dea7604502811642c4c8);
+            
+        
+
+        circle_marker_ddc20ec1812317f77ec901a50cce30ed.bindPopup(popup_20701b71d222e95ecdb36c82b5b94170)
+        ;
+
+        
+    
+    
+            var circle_marker_7bfbf2c1fc6f37434a7e132140ba1d4f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c3c0b8b58ef67b582fa07c5a8f0d1f34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aba913ed30e48cb3bfc80083ad9fc60 = $(`<div id="html_2aba913ed30e48cb3bfc80083ad9fc60" style="width: 100.0%; height: 100.0%;">Seychelles: 18.75 tonnes</div>`)[0];
+                popup_c3c0b8b58ef67b582fa07c5a8f0d1f34.setContent(html_2aba913ed30e48cb3bfc80083ad9fc60);
+            
+        
+
+        circle_marker_7bfbf2c1fc6f37434a7e132140ba1d4f.bindPopup(popup_c3c0b8b58ef67b582fa07c5a8f0d1f34)
+        ;
+
+        
+    
+    
+            var circle_marker_42e675b5282e7a13ab54ab33e823feeb = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_643c289659fea2bfc05757e114446d5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ff6a2c0ef3e93bababbeae268bda7b9 = $(`<div id="html_1ff6a2c0ef3e93bababbeae268bda7b9" style="width: 100.0%; height: 100.0%;">Slovakia: 1520.12 tonnes</div>`)[0];
+                popup_643c289659fea2bfc05757e114446d5e.setContent(html_1ff6a2c0ef3e93bababbeae268bda7b9);
+            
+        
+
+        circle_marker_42e675b5282e7a13ab54ab33e823feeb.bindPopup(popup_643c289659fea2bfc05757e114446d5e)
+        ;
+
+        
+    
+    
+            var circle_marker_783f38403e71489cd7ddf1552e78cd62 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_00551c93a44e85a295050aa2246d0372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7e7579bee31e11285dbc32c018eedb5 = $(`<div id="html_a7e7579bee31e11285dbc32c018eedb5" style="width: 100.0%; height: 100.0%;">Slovenia: 1156.21 tonnes</div>`)[0];
+                popup_00551c93a44e85a295050aa2246d0372.setContent(html_a7e7579bee31e11285dbc32c018eedb5);
+            
+        
+
+        circle_marker_783f38403e71489cd7ddf1552e78cd62.bindPopup(popup_00551c93a44e85a295050aa2246d0372)
+        ;
+
+        
+    
+    
+            var circle_marker_993584a8bf5ab4308783603837d9a293 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_99f5dcc5453e8326a7589992079999ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41e98dd1435c85490a322cd800962865 = $(`<div id="html_41e98dd1435c85490a322cd800962865" style="width: 100.0%; height: 100.0%;">South Africa: 26857.0 tonnes</div>`)[0];
+                popup_99f5dcc5453e8326a7589992079999ae.setContent(html_41e98dd1435c85490a322cd800962865);
+            
+        
+
+        circle_marker_993584a8bf5ab4308783603837d9a293.bindPopup(popup_99f5dcc5453e8326a7589992079999ae)
+        ;
+
+        
+    
+    
+            var circle_marker_f5a52b47605a52a4fd16a481d12097bf = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_1757888e3fce3e2b87d8e3a67e1858a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f3e97b0bda326d59c401c20e72d2f75 = $(`<div id="html_4f3e97b0bda326d59c401c20e72d2f75" style="width: 100.0%; height: 100.0%;">Spain: 61895.0 tonnes</div>`)[0];
+                popup_1757888e3fce3e2b87d8e3a67e1858a1.setContent(html_4f3e97b0bda326d59c401c20e72d2f75);
+            
+        
+
+        circle_marker_f5a52b47605a52a4fd16a481d12097bf.bindPopup(popup_1757888e3fce3e2b87d8e3a67e1858a1)
+        ;
+
+        
+    
+    
+            var circle_marker_b0e8c0df55f17082a6c566b752d89e11 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a129200a9beb20f40931f8f76ed304b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0bf8c08cd1635af430550446e84ceeb = $(`<div id="html_f0bf8c08cd1635af430550446e84ceeb" style="width: 100.0%; height: 100.0%;">Sri Lanka: 1924.19 tonnes</div>`)[0];
+                popup_a129200a9beb20f40931f8f76ed304b3.setContent(html_f0bf8c08cd1635af430550446e84ceeb);
+            
+        
+
+        circle_marker_b0e8c0df55f17082a6c566b752d89e11.bindPopup(popup_a129200a9beb20f40931f8f76ed304b3)
+        ;
+
+        
+    
+    
+            var circle_marker_cd37584ab993a73e81b31e8605c98364 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_17d906232fd9cf666a6903f0343074b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f19983335ef48761eee74b3d330f9419 = $(`<div id="html_f19983335ef48761eee74b3d330f9419" style="width: 100.0%; height: 100.0%;">Sudan: 2469.47 tonnes</div>`)[0];
+                popup_17d906232fd9cf666a6903f0343074b3.setContent(html_f19983335ef48761eee74b3d330f9419);
+            
+        
+
+        circle_marker_cd37584ab993a73e81b31e8605c98364.bindPopup(popup_17d906232fd9cf666a6903f0343074b3)
+        ;
+
+        
+    
+    
+            var circle_marker_f7b0fa1dc14ad5f9a9d0059a651883ed = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4ab3c097db3efcdb216a0cd379e48ea1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c42420909fb1ec708047de3f57ab2e7a = $(`<div id="html_c42420909fb1ec708047de3f57ab2e7a" style="width: 100.0%; height: 100.0%;">Suriname: 616.45 tonnes</div>`)[0];
+                popup_4ab3c097db3efcdb216a0cd379e48ea1.setContent(html_c42420909fb1ec708047de3f57ab2e7a);
+            
+        
+
+        circle_marker_f7b0fa1dc14ad5f9a9d0059a651883ed.bindPopup(popup_4ab3c097db3efcdb216a0cd379e48ea1)
+        ;
+
+        
+    
+    
+            var circle_marker_93ea107ce36e146501bee502398a5a78 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f7e3c9bb9113e7a7366aefea713924da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41f7bb264e56d1bb2c80a1e9fc65c1ac = $(`<div id="html_41f7bb264e56d1bb2c80a1e9fc65c1ac" style="width: 100.0%; height: 100.0%;">Sweden: 1629.7 tonnes</div>`)[0];
+                popup_f7e3c9bb9113e7a7366aefea713924da.setContent(html_41f7bb264e56d1bb2c80a1e9fc65c1ac);
+            
+        
+
+        circle_marker_93ea107ce36e146501bee502398a5a78.bindPopup(popup_f7e3c9bb9113e7a7366aefea713924da)
+        ;
+
+        
+    
+    
+            var circle_marker_e6f6f65f7720ce0421f693db1168e78d = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_0159513900beae071d865234acd5247e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3c5e9c2dba74faeca8258d5bf2b370d = $(`<div id="html_b3c5e9c2dba74faeca8258d5bf2b370d" style="width: 100.0%; height: 100.0%;">Switzerland: 2147.76 tonnes</div>`)[0];
+                popup_0159513900beae071d865234acd5247e.setContent(html_b3c5e9c2dba74faeca8258d5bf2b370d);
+            
+        
+
+        circle_marker_e6f6f65f7720ce0421f693db1168e78d.bindPopup(popup_0159513900beae071d865234acd5247e)
+        ;
+
+        
+    
+    
+            var circle_marker_ca69d4ed4e0f21066688726cde4cd0e3 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a19adcfde5a948aa5a9ea78f8756d7da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cf36a8fff80a84e088a29cf10812ea3 = $(`<div id="html_4cf36a8fff80a84e088a29cf10812ea3" style="width: 100.0%; height: 100.0%;">Syrian Arab Republic: 974.79 tonnes</div>`)[0];
+                popup_a19adcfde5a948aa5a9ea78f8756d7da.setContent(html_4cf36a8fff80a84e088a29cf10812ea3);
+            
+        
+
+        circle_marker_ca69d4ed4e0f21066688726cde4cd0e3.bindPopup(popup_a19adcfde5a948aa5a9ea78f8756d7da)
+        ;
+
+        
+    
+    
+            var circle_marker_09f0b0142d2577ef603ddac9eb681564 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_d8e09bb4077bf5dec87d4c6a6d314971 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74592407a3623591ccf0c3192032bdd = $(`<div id="html_e74592407a3623591ccf0c3192032bdd" style="width: 100.0%; height: 100.0%;">Tajikistan: 264.6 tonnes</div>`)[0];
+                popup_d8e09bb4077bf5dec87d4c6a6d314971.setContent(html_e74592407a3623591ccf0c3192032bdd);
+            
+        
+
+        circle_marker_09f0b0142d2577ef603ddac9eb681564.bindPopup(popup_d8e09bb4077bf5dec87d4c6a6d314971)
+        ;
+
+        
+    
+    
+            var circle_marker_142750eeae810ef7fe1d95b5791e9065 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_9a880069b193408310051a203c0d288a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8372eb0819b86cf7969d29a3eb541aa5 = $(`<div id="html_8372eb0819b86cf7969d29a3eb541aa5" style="width: 100.0%; height: 100.0%;">Thailand: 21800.0 tonnes</div>`)[0];
+                popup_9a880069b193408310051a203c0d288a.setContent(html_8372eb0819b86cf7969d29a3eb541aa5);
+            
+        
+
+        circle_marker_142750eeae810ef7fe1d95b5791e9065.bindPopup(popup_9a880069b193408310051a203c0d288a)
+        ;
+
+        
+    
+    
+            var circle_marker_7b3c412f0aee2ae4961d7377e1f08f03 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_93d076eaeb72e6346ec01f270237c992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b5b43065a51b087ad7793f7d11eac07 = $(`<div id="html_6b5b43065a51b087ad7793f7d11eac07" style="width: 100.0%; height: 100.0%;">The former Yugoslav Republic of Macedonia: 98.0 tonnes</div>`)[0];
+                popup_93d076eaeb72e6346ec01f270237c992.setContent(html_6b5b43065a51b087ad7793f7d11eac07);
+            
+        
+
+        circle_marker_7b3c412f0aee2ae4961d7377e1f08f03.bindPopup(popup_93d076eaeb72e6346ec01f270237c992)
+        ;
+
+        
+    
+    
+            var circle_marker_40530be4014a2c1b6e6e76cf2e425d9f = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_cdfe3577fcb5aff07320d7bfa7bce8cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5180eb6e78e5e3559d069ad7e977db = $(`<div id="html_5c5180eb6e78e5e3559d069ad7e977db" style="width: 100.0%; height: 100.0%;">Timor-Leste: 1.78 tonnes</div>`)[0];
+                popup_cdfe3577fcb5aff07320d7bfa7bce8cd.setContent(html_5c5180eb6e78e5e3559d069ad7e977db);
+            
+        
+
+        circle_marker_40530be4014a2c1b6e6e76cf2e425d9f.bindPopup(popup_cdfe3577fcb5aff07320d7bfa7bce8cd)
+        ;
+
+        
+    
+    
+            var circle_marker_312526bbbebae8b48a6773eb2501fbdc = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_02d0d74126eb7760713cc6341a1b45a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4214af64e8da3758f02b803125f2090d = $(`<div id="html_4214af64e8da3758f02b803125f2090d" style="width: 100.0%; height: 100.0%;">Togo: 1292.85 tonnes</div>`)[0];
+                popup_02d0d74126eb7760713cc6341a1b45a3.setContent(html_4214af64e8da3758f02b803125f2090d);
+            
+        
+
+        circle_marker_312526bbbebae8b48a6773eb2501fbdc.bindPopup(popup_02d0d74126eb7760713cc6341a1b45a3)
+        ;
+
+        
+    
+    
+            var circle_marker_07f04e45ec4463b0ac0bdca41e8332d1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_a74b983e82b947f951e0d0737cd9dd3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0a15f124fb159de15049afb4a8c3f33 = $(`<div id="html_d0a15f124fb159de15049afb4a8c3f33" style="width: 100.0%; height: 100.0%;">Tonga: 15.09 tonnes</div>`)[0];
+                popup_a74b983e82b947f951e0d0737cd9dd3c.setContent(html_d0a15f124fb159de15049afb4a8c3f33);
+            
+        
+
+        circle_marker_07f04e45ec4463b0ac0bdca41e8332d1.bindPopup(popup_a74b983e82b947f951e0d0737cd9dd3c)
+        ;
+
+        
+    
+    
+            var circle_marker_b3a8071a5d258ce1dec7b3d282a3a37e = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_18f38e83013b0f4dc7a4ee5c95a4b226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0e7352df54a8eac872399979a5f2673 = $(`<div id="html_c0e7352df54a8eac872399979a5f2673" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago: 1170.81 tonnes</div>`)[0];
+                popup_18f38e83013b0f4dc7a4ee5c95a4b226.setContent(html_c0e7352df54a8eac872399979a5f2673);
+            
+        
+
+        circle_marker_b3a8071a5d258ce1dec7b3d282a3a37e.bindPopup(popup_18f38e83013b0f4dc7a4ee5c95a4b226)
+        ;
+
+        
+    
+    
+            var circle_marker_0002cbdcd6b396650053ff556d420b30 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_830f7ac4f363b1ae932a369dc5070fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c937c865e5ee4a69fa8b532c79234b4a = $(`<div id="html_c937c865e5ee4a69fa8b532c79234b4a" style="width: 100.0%; height: 100.0%;">Tunisia: 422.24 tonnes</div>`)[0];
+                popup_830f7ac4f363b1ae932a369dc5070fb8.setContent(html_c937c865e5ee4a69fa8b532c79234b4a);
+            
+        
+
+        circle_marker_0002cbdcd6b396650053ff556d420b30.bindPopup(popup_830f7ac4f363b1ae932a369dc5070fb8)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca5ff8ee787dcf634f5a1c4342c7a11 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_6a4b725575cedba030f585b66493072a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f869bc37aa492c5a0124ae770dc16556 = $(`<div id="html_f869bc37aa492c5a0124ae770dc16556" style="width: 100.0%; height: 100.0%;">Turkey: 50054.0 tonnes</div>`)[0];
+                popup_6a4b725575cedba030f585b66493072a.setContent(html_f869bc37aa492c5a0124ae770dc16556);
+            
+        
+
+        circle_marker_8ca5ff8ee787dcf634f5a1c4342c7a11.bindPopup(popup_6a4b725575cedba030f585b66493072a)
+        ;
+
+        
+    
+    
+            var circle_marker_31c9d27cf2c9b42bb569f8e435c30fee = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_264e618e17a9b6eedf85a0d9da3540ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07c272eae828ce2b39f8c587dcaa6e11 = $(`<div id="html_07c272eae828ce2b39f8c587dcaa6e11" style="width: 100.0%; height: 100.0%;">Turkmenistan: 9712.0 tonnes</div>`)[0];
+                popup_264e618e17a9b6eedf85a0d9da3540ea.setContent(html_07c272eae828ce2b39f8c587dcaa6e11);
+            
+        
+
+        circle_marker_31c9d27cf2c9b42bb569f8e435c30fee.bindPopup(popup_264e618e17a9b6eedf85a0d9da3540ea)
+        ;
+
+        
+    
+    
+            var circle_marker_6ee33f643b0c94a5ca5745e8ced68b98 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_ae55f0cd86b122aacde2b531da7f9d17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38f5c1b3701e6f92e33bc5d064686dab = $(`<div id="html_38f5c1b3701e6f92e33bc5d064686dab" style="width: 100.0%; height: 100.0%;">Uganda: 88.0 tonnes</div>`)[0];
+                popup_ae55f0cd86b122aacde2b531da7f9d17.setContent(html_38f5c1b3701e6f92e33bc5d064686dab);
+            
+        
+
+        circle_marker_6ee33f643b0c94a5ca5745e8ced68b98.bindPopup(popup_ae55f0cd86b122aacde2b531da7f9d17)
+        ;
+
+        
+    
+    
+            var circle_marker_1f4d9f4b9fbce995dbd1360eb0f0d063 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_4d9e2148fda5bf1ffcd68ed30f64bd53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_225ff3b49b92e2f7a50e3a1c0988590d = $(`<div id="html_225ff3b49b92e2f7a50e3a1c0988590d" style="width: 100.0%; height: 100.0%;">Ukraine: 78201.0 tonnes</div>`)[0];
+                popup_4d9e2148fda5bf1ffcd68ed30f64bd53.setContent(html_225ff3b49b92e2f7a50e3a1c0988590d);
+            
+        
+
+        circle_marker_1f4d9f4b9fbce995dbd1360eb0f0d063.bindPopup(popup_4d9e2148fda5bf1ffcd68ed30f64bd53)
+        ;
+
+        
+    
+    
+            var circle_marker_7309f2ae7663137339ad102939809e04 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_f8368fe2f2ebf2a678848aa16502b798 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f88c8c5c84507ca38d8c7fd24aee028 = $(`<div id="html_3f88c8c5c84507ca38d8c7fd24aee028" style="width: 100.0%; height: 100.0%;">United Kingdom: 19277.79 tonnes</div>`)[0];
+                popup_f8368fe2f2ebf2a678848aa16502b798.setContent(html_3f88c8c5c84507ca38d8c7fd24aee028);
+            
+        
+
+        circle_marker_7309f2ae7663137339ad102939809e04.bindPopup(popup_f8368fe2f2ebf2a678848aa16502b798)
+        ;
+
+        
+    
+    
+            var circle_marker_cd5d763dbc8d87a2e6090187bbeb7852 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_cbd0b58310dc45f2852c2b1fcf9e3a58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7c75fb36369027fc608fc328f2e60b5 = $(`<div id="html_d7c75fb36369027fc608fc328f2e60b5" style="width: 100.0%; height: 100.0%;">United Republic of Tanzania: 1.0 tonnes</div>`)[0];
+                popup_cbd0b58310dc45f2852c2b1fcf9e3a58.setContent(html_d7c75fb36369027fc608fc328f2e60b5);
+            
+        
+
+        circle_marker_cd5d763dbc8d87a2e6090187bbeb7852.bindPopup(popup_cbd0b58310dc45f2852c2b1fcf9e3a58)
+        ;
+
+        
+    
+    
+            var circle_marker_738ed244a2b3bf1f643a3271fd567427 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_fc29a7a0a0cd26a16e6d90b2c9af943d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8103b657a76b0ba1b277641fe3d9da96 = $(`<div id="html_8103b657a76b0ba1b277641fe3d9da96" style="width: 100.0%; height: 100.0%;">United States of America: 407779.2 tonnes</div>`)[0];
+                popup_fc29a7a0a0cd26a16e6d90b2c9af943d.setContent(html_8103b657a76b0ba1b277641fe3d9da96);
+            
+        
+
+        circle_marker_738ed244a2b3bf1f643a3271fd567427.bindPopup(popup_fc29a7a0a0cd26a16e6d90b2c9af943d)
+        ;
+
+        
+    
+    
+            var circle_marker_8664ae8b8fda508d1e951b79b22839a7 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_646cb995907ff10d43856478d27e686f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29e59f86b2e3ece6dfc9379d0e5fd6c3 = $(`<div id="html_29e59f86b2e3ece6dfc9379d0e5fd6c3" style="width: 100.0%; height: 100.0%;">Uruguay: 13365.8 tonnes</div>`)[0];
+                popup_646cb995907ff10d43856478d27e686f.setContent(html_29e59f86b2e3ece6dfc9379d0e5fd6c3);
+            
+        
+
+        circle_marker_8664ae8b8fda508d1e951b79b22839a7.bindPopup(popup_646cb995907ff10d43856478d27e686f)
+        ;
+
+        
+    
+    
+            var circle_marker_e80317585202c82604defcf194d2e444 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_c89e4be6a15bc597d42b36b8d2639cc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c38f145e82d2b481e865fe8fbcbf086c = $(`<div id="html_c38f145e82d2b481e865fe8fbcbf086c" style="width: 100.0%; height: 100.0%;">Vanuatu: 131.0 tonnes</div>`)[0];
+                popup_c89e4be6a15bc597d42b36b8d2639cc3.setContent(html_c38f145e82d2b481e865fe8fbcbf086c);
+            
+        
+
+        circle_marker_e80317585202c82604defcf194d2e444.bindPopup(popup_c89e4be6a15bc597d42b36b8d2639cc3)
+        ;
+
+        
+    
+    
+            var circle_marker_292e7c02a8c1ca8660aa3e1dc0e1acf1 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_10e5811e5967977c1037fe8860990a29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08a21f84d2492010480389d1852b2c33 = $(`<div id="html_08a21f84d2492010480389d1852b2c33" style="width: 100.0%; height: 100.0%;">Venezuela (Bolivarian Republic of): 3928.0 tonnes</div>`)[0];
+                popup_10e5811e5967977c1037fe8860990a29.setContent(html_08a21f84d2492010480389d1852b2c33);
+            
+        
+
+        circle_marker_292e7c02a8c1ca8660aa3e1dc0e1acf1.bindPopup(popup_10e5811e5967977c1037fe8860990a29)
+        ;
+
+        
+    
+    
+            var circle_marker_82f9379acbfb7b25de60562a94de7aa6 = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_8dc0a5b4e277412bb270e592ed3795d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b091982334c9f7be273e1c898a1126 = $(`<div id="html_f1b091982334c9f7be273e1c898a1126" style="width: 100.0%; height: 100.0%;">Viet Nam: 19154.0 tonnes</div>`)[0];
+                popup_8dc0a5b4e277412bb270e592ed3795d9.setContent(html_f1b091982334c9f7be273e1c898a1126);
+            
+        
+
+        circle_marker_82f9379acbfb7b25de60562a94de7aa6.bindPopup(popup_8dc0a5b4e277412bb270e592ed3795d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2130fc939720f070df0aedb5440e3ada = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_512363e77cbf3131dfbf1e05998c5894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_206a1290dbe3bb1e2dca87bb25853a4f = $(`<div id="html_206a1290dbe3bb1e2dca87bb25853a4f" style="width: 100.0%; height: 100.0%;">Yemen: 109.59 tonnes</div>`)[0];
+                popup_512363e77cbf3131dfbf1e05998c5894.setContent(html_206a1290dbe3bb1e2dca87bb25853a4f);
+            
+        
+
+        circle_marker_2130fc939720f070df0aedb5440e3ada.bindPopup(popup_512363e77cbf3131dfbf1e05998c5894)
+        ;
+
+        
+    
+    
+            var circle_marker_c41f25606ab5461254281a62cc12a6ff = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_feee6bdc2b9c9a6d796319b832ca0847 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e3b31255d444ed0ae8662f7dc24047 = $(`<div id="html_d6e3b31255d444ed0ae8662f7dc24047" style="width: 100.0%; height: 100.0%;">Zambia: 1670.0 tonnes</div>`)[0];
+                popup_feee6bdc2b9c9a6d796319b832ca0847.setContent(html_d6e3b31255d444ed0ae8662f7dc24047);
+            
+        
+
+        circle_marker_c41f25606ab5461254281a62cc12a6ff.bindPopup(popup_feee6bdc2b9c9a6d796319b832ca0847)
+        ;
+
+        
+    
+    
+            var circle_marker_caab605f41b73816e0eee7acab434a8c = L.circleMarker(
+                [20.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4a868aa539bd0ed573f0af0bd29ddc61);
+        
+    
+        var popup_425e83e3215af95c95c98d0b5cf9947d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1279bb82ddcce66fbf5a9fd2cb915bb9 = $(`<div id="html_1279bb82ddcce66fbf5a9fd2cb915bb9" style="width: 100.0%; height: 100.0%;">Zimbabwe: 2185.07 tonnes</div>`)[0];
+                popup_425e83e3215af95c95c98d0b5cf9947d.setContent(html_1279bb82ddcce66fbf5a9fd2cb915bb9);
+            
+        
+
+        circle_marker_caab605f41b73816e0eee7acab434a8c.bindPopup(popup_425e83e3215af95c95c98d0b5cf9947d)
+        ;
+
+        
+    
+</script>
+</html>
