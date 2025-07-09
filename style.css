@@ -1,4 +1,4 @@
-/* style.css — Dark/Light Theme Dashboard */
+/* style.css — Dark/Light Theme Dashboard with Navbar Fixes */
 
 :root {
   --bg-color: #0e1217;
@@ -47,6 +47,18 @@ nav {
   align-items: center;
 }
 
+.nav-left {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.nav-right {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -91,9 +103,10 @@ main {
 
 header h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 42px;
   color: var(--accent);
-  margin: 40px 0;
+  margin: 60px 0 30px;
+  font-weight: 700;
 }
 
 section h2 {
