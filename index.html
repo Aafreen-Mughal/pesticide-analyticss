@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pesticide Analytics | Home</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pesticide Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
 </head>
 <body>
   <nav>
-    <a href="index.html">🏠 Home</a>
-    <a href="dataset.html">📄 Dataset</a>
-    <a href="results.html">📊 Results</a>
-    <a href="help.html">❓ Help</a>
+    <div class="nav-left">🌿 Pesticide Analytics</div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dataset.html">Dataset</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+      <button id="mode-toggle" onclick="toggleMode()">🌓 Mode</button>
+    </div>
   </nav>
-  <header>
-    <h1>Welcome to the Pesticide Usage Analytics Platform</h1>
-    <p>This project provides data-driven insights into global pesticide usage to support sustainable agriculture.</p>
-  </header>
+
+  <main>
+    <header>
+      <h1>Pesticide Usage Insights & Visualization</h1>
+      <p>Welcome to the dashboard that analyzes global pesticide usage trends with interactive graphs and helpful guidance.</p>
+    </header>
+
+    <section>
+      <div class="card">
+        <h3>🌐 Project Overview</h3>
+        <p>This dashboard presents insightful analytics on pesticide consumption across various countries over the years. The goal is to support sustainable agriculture and monitor environmental impact.</p>
+        <ul>
+          <li><strong>Interactive Charts:</strong> Visualize trends over time</li>
+          <li><strong>Global Data:</strong> Country-wise comparisons</li>
+          <li><strong>User Help:</strong> Guidance and support page</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    🌱 Built for awareness and impact | © 2025 Aafreen Mughal
+  </footer>
 </body>
 </html>
